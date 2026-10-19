@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hanford Glass Research Database</title>
+<style>
+  :root { font-size: 15px; }
+  body {
+    margin: 0; padding: 0; color: var(--foreground, #1a1a1a);
+    background: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  header { padding: 14px 18px 6px; }
+  h1 { font-size: 1.25rem; margin: 0 0 2px; }
+  .sub { color: var(--muted-foreground, #666); font-size: .85rem; margin-bottom: 10px; }
+  .toolbar {
+    position: sticky; top: 0; z-index: 5; display: flex; flex-wrap: wrap; gap: 6px;
+    padding: 10px 18px; background: var(--card, #fff);
+    border-bottom: 1px solid var(--border, #ddd);
+  }
+  .toolbar input, .toolbar select {
+    font: inherit; font-size: .85rem; padding: 5px 8px;
+    border: 1px solid var(--border, #ccc); border-radius: 6px;
+    background: var(--background, transparent); color: inherit;
+  }
+  #q { flex: 2 1 260px; }
+  .toolbar select { flex: 0 1 auto; }
+  #count { flex: 1 0 auto; text-align: right; color: var(--muted-foreground, #666);
+           font-size: .8rem; align-self: center; }
+  main { padding: 10px 18px 40px; }
+  .rec {
+    border: 1px solid var(--border, #e3e3e3); border-radius: 8px;
+    padding: 10px 12px; margin-bottom: 8px; background: var(--card, #fff);
+  }
+  .rec h3 { margin: 0 0 3px; font-size: .95rem; line-height: 1.3; }
+  .rec h3 a { color: inherit; text-decoration: none; }
+  .rec h3 a:hover { color: var(--accent, #06c); text-decoration: underline; }
+  .meta { color: var(--muted-foreground, #666); font-size: .78rem; margin-bottom: 5px; }
+  .badge {
+    display: inline-block; font-size: .68rem; padding: 1px 7px; margin-right: 4px;
+    border-radius: 10px; border: 1px solid var(--border, #ccc);
+    color: var(--muted-foreground, #555); vertical-align: 1px;
+  }
+  .badge.core { border-color: var(--accent, #06c); color: var(--accent, #06c); }
+  .badge.fac { border-color: var(--accent, #06c); }
+  .links { font-size: .78rem; margin-top: 4px; }
+  .links a { color: var(--accent, #06c); text-decoration: none; margin-right: 10px; }
+  .links a:hover { text-decoration: underline; }
+  .ab { font-size: .8rem; color: var(--muted-foreground, #444); margin-top: 4px;
+        max-height: 3.6em; overflow: hidden; cursor: pointer; }
+  .ab.open { max-height: none; }
+  .load { padding: 30px; color: var(--muted-foreground, #666); text-align: center; }
+  .more { display: block; margin: 12px auto; padding: 6px 18px; font: inherit;
+          font-size: .85rem; border: 1px solid var(--border, #ccc); border-radius: 6px;
+          background: var(--card, #fff); color: inherit; cursor: pointer; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Hanford Glass Composition & Algorithm Research Database</h1>
+  <div class="sub">Open compilation of published research on Hanford waste-glass composition
+  modeling & formulation algorithms (LAW + HLW), 1976&ndash;present &middot;
+  sources: OSTI &middot; OpenAlex &middot; Crossref &middot; curated bibliographies</div>
+</header>
+<div class="toolbar">
+  <input id="q" type="search" placeholder="Search title, author, abstract, report number&hellip;">
+  <select id="rel">
+    <option value="">relevance: all</option>
+    <option value="core">core (Hanford glass)</option>
+    <option value="hanford-adjacent">hanford-adjacent</option>
+    <option value="waste-glass-related">waste-glass-related</option>
+  </select>
+  <select id="fac">
+    <option value="">facility: all</option>
+    <option value="LAW">LAW</option>
+    <option value="HLW">HLW</option>
+    <option value="both">both</option>
+  </select>
+  <select id="topic"><option value="">topic: all</option></select>
+  <select id="y1"><option value="">year&ge;</option></select>
+  <select id="y2"><option value="">year&le;</option></select>
+  <select id="sort">
+    <option value="rel">sort: relevance</option>
+    <option value="year-desc">year &darr;</option>
+    <option value="year-asc">year &uarr;</option>
+    <option value="cited">citations &darr;</option>
+    <option value="title">title</option>
+  </select>
+  <span id="count"></span>
+</div>
+<main id="out"><div class="load">Loading database&hellip;</div></main>
+
+<script>
+var RECS = [];
+var PAGE = 60;
+var shown = PAGE;
+var LAST = [];
+function $(id) { return document.getElementById(id); }
+
+var relOrder = { "core": 0, "hanford-adjacent": 1, "waste-glass-related": 2 };
+
+function hay(r) {
+  return ((r.t||"") + " " + (r.a||"") + " " + (r.ab||"") + " " +
+          (r.rn||[]).join(" ") + " " + (r.v||"")).toLowerCase();
+}
+
+function apply() {
+  if (!RECS.length) return;
+  var q = $("q").value.trim().toLowerCase();
+  var terms = q.split(/\s+/).filter(Boolean);
+  var rel = $("rel").value, fac = $("fac").value, topic = $("topic").value;
+  var y1 = +$("y1").value || -Infinity, y2 = +$("y2").value || Infinity;
+  var out = RECS.filter(function (r) {
+    return (!rel || r.rel === rel) &&
+           (!fac || r.fac === fac) &&
+           (!topic || (r.tp||[]).indexOf(topic) !== -1) &&
+           (r.y||0) >= y1 && (r.y||0) <= y2 &&
+           terms.every(function (t) { return hay(r).indexOf(t) !== -1; });
+  });
+  var s = $("sort").value;
+  if (s === "year-desc") out.sort(function(a,b){return (b.y||0)-(a.y||0);});
+  else if (s === "year-asc") out.sort(function(a,b){return (a.y||0)-(b.y||0);});
+  else if (s === "cited") out.sort(function(a,b){return (b.cb||0)-(a.cb||0);});
+  else if (s === "title") out.sort(function(a,b){return (a.t||"").localeCompare(b.t||"");});
+  else out.sort(function(a,b){
+    return ((relOrder[a.rel]===undefined?9:relOrder[a.rel]) -
+            (relOrder[b.rel]===undefined?9:relOrder[b.rel])) || (b.y||0)-(a.y||0);
+  });
+  render(out);
+}
+
+function esc(s) {
+  var MAP = {"&": "\u0026amp;", "<": "\u0026lt;", ">": "\u0026gt;", '"': "\u0026quot;"};
+  return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return MAP[c]; });
+}
+
+function render(list) {
+  shown = Math.min(PAGE, list.length);
+  LAST = list;
+  $("count").textContent = list.length.toLocaleString() + " matching records";
+  draw();
+}
+
+function draw() {
+  var list = LAST;
+  var rows = list.slice(0, shown).map(function (r) {
+    var links = [];
+    if (r.doi) links.push('<a href="https://doi.org/' + esc(r.doi) + '" target="_blank">DOI</a>');
+    if (r.ost) links.push('<a href="https://www.osti.gov/biblio/' + esc(r.ost) + '" target="_blank">OSTI</a>');
+    if (r.pdf) links.push('<a href="' + esc(r.pdf) + '" target="_blank">PDF</a>');
+    (r.urls||[]).slice(0,2).forEach(function (u) {
+      links.push('<a href="' + esc(u) + '" target="_blank">link</a>');
+    });
+    var href = r.doi ? "https://doi.org/" + esc(r.doi) : (r.pdf || (r.urls && r.urls[0]) || "#");
+    var badges = [];
+    if (r.rel === "core") badges.push('<span class="badge core">core</span>');
+    else if (r.rel) badges.push('<span class="badge">' + esc(r.rel) + "</span>");
+    if (r.fac) badges.push('<span class="badge fac">' + esc(r.fac) + "</span>");
+    if (r.era) badges.push('<span class="badge">' + esc(r.era) + "</span>");
+    (r.rn||[]).slice(0,2).forEach(function (n) {
+      badges.push('<span class="badge">' + esc(n) + "</span>");
+    });
+    if (r.cb) badges.push('<span class="badge">cited ' + r.cb + "</span>");
+    return '<div class="rec">' +
+      '<h3><a href="' + href + '" target="_blank">' + esc(r.t) + "</a></h3>" +
+      '<div class="meta">' + esc(r.a||"") + (r.y ? " \u00b7 " + r.y : "") +
+        (r.v ? " \u00b7 " + esc(r.v) : "") + "</div>" +
+      '<div>' + badges.join("") + "</div>" +
+      (r.ab ? '<div class="ab" onclick="this.classList.toggle(\'open\')">' + esc(r.ab) + "</div>" : "") +
+      (links.length ? '<div class="links">' + links.join("") + "</div>" : "") +
+      "</div>";
+  }).join("");
+  var more = shown < list.length
+    ? '<button class="more" onclick="shown+=' + PAGE + ';draw()">Show more (' +
+      (list.length - shown).toLocaleString() + " remaining)</button>"
+    : "";
+  $("out").innerHTML = rows + more;
+}
+
+function fail(msg) {
+  $("out").innerHTML = '<div class="load">Error: ' + esc(msg) + "</div>";
+}
+
+function load() {
+  fetch("records_ui.json")
+    .then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    })
+    .then(function (d) {
+      RECS = d.records || [];
+      var topics = {}, years = {};
+      RECS.forEach(function (r) {
+        (r.tp||[]).forEach(function (t) { topics[t] = 1; });
+        if (r.y) years[r.y] = 1;
+      });
+      function addOpt(sel, val, label) {
+        var o = document.createElement("option");
+        o.value = val;
+        o.textContent = label;
+        sel.appendChild(o);
+      }
+      Object.keys(topics).sort().forEach(function (t) {
+        addOpt($("topic"), t, t);
+      });
+      Object.keys(years).sort(function (a, b) { return b - a; }).forEach(function (y) {
+        addOpt($("y1"), y, String(y));
+        addOpt($("y2"), y, String(y));
+      });
+      apply();
+    })
+    .catch(function (e) {
+      fail("Could not load records_ui.json (" + e.message +
+           "). Serve this folder, e.g.: python3 -m http.server");
+    });
+}
+
+["q","rel","fac","topic","y1","y2","sort"].forEach(function (id) {
+  $(id).addEventListener("input", apply);
+  $(id).addEventListener("change", apply);
+  $(id).addEventListener("keyup", apply);
+  $(id).addEventListener("search", apply);
+});
+// initial render safety: also re-apply once fonts/layout settle
+setTimeout(apply, 50);
+load();
+</script>
+</body>
+</html>

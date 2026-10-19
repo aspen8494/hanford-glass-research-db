@@ -1,0 +1,50 @@
+[
+ {
+  "source": "crossref",
+  "label": "hanford_glass",
+  "query": "Hanford waste glass",
+  "rows": 600
+ },
+ {
+  "source": "crossref",
+  "label": "LAW_glass",
+  "query": "low activity waste glass Hanford",
+  "rows": 400
+ },
+ {
+  "source": "crossref",
+  "label": "waste_glass_model",
+  "query": "waste glass composition property model",
+  "rows": 600
+ },
+ {
+  "source": "crossref",
+  "label": "waste_glass_durability",
+  "query": "waste glass durability leaching borosilicate",
+  "rows": 400
+ },
+ {
+  "source": "arxiv",
+  "label": "waste_glass",
+  "query": "waste glass vitrification",
+  "max": 200
+ },
+ {
+  "source": "arxiv",
+  "label": "glass_modeling",
+  "query": "glass molecular dynamics durability",
+  "max": 200
+ },
+ {
+  "source": "pnnl",
+  "label": "hanford_glass",
+  "query": "hanford glass",
+  "pages": 8
+ },
+ {
+  "source": "pnnl",
+  "label": "immobilized_waste",
+  "query": "immobilized waste glass",
+  "pages": 8
+ }
+]

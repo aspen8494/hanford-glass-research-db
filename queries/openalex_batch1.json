@@ -1,0 +1,65 @@
+[
+ {
+  "label": "hanford_glass",
+  "search": "Hanford waste glass composition vitrification"
+ },
+ {
+  "label": "hanford_LAW_glass",
+  "search": "Hanford low activity waste glass"
+ },
+ {
+  "label": "hanford_HLW_glass",
+  "search": "Hanford high level waste glass"
+ },
+ {
+  "label": "waste_glass_property_model",
+  "search": "waste glass property composition model viscosity"
+ },
+ {
+  "label": "waste_glass_durability",
+  "search": "waste glass durability product consistency test"
+ },
+ {
+  "label": "enhanced_waste_glass",
+  "search": "Enhanced Waste Glass Hanford"
+ },
+ {
+  "label": "nepheline_waste_glass",
+  "search": "nepheline formation waste glass"
+ },
+ {
+  "label": "iron_phosphate_glass",
+  "search": "iron phosphate glass waste"
+ },
+ {
+  "label": "high_alumina_glass",
+  "search": "high alumina waste glass"
+ },
+ {
+  "label": "glass_waste_loading",
+  "search": "glass waste loading optimization"
+ },
+ {
+  "label": "melter_glass",
+  "search": "joule heated melter waste glass"
+ },
+ {
+  "label": "ilaw_glass",
+  "search": "immobilized low activity waste glass"
+ },
+ {
+  "label": "vienna_j_v",
+  "search": "J. Vienna waste glass",
+  "filter": "raw_author_name.search:Vienna"
+ },
+ {
+  "label": "hrma_p",
+  "search": "P. Hrma glass",
+  "filter": "raw_author_name.search:Hrma"
+ },
+ {
+  "label": "jantzen_c_m",
+  "search": "C. Jantzen glass",
+  "filter": "raw_author_name.search:Jantzen"
+ }
+]

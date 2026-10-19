@@ -1,0 +1,106 @@
+[
+ {
+  "label": "title:hanford glass",
+  "params": "title=hanford+glass"
+ },
+ {
+  "label": "title:hanford LAW",
+  "params": "title=hanford+low+activity+waste"
+ },
+ {
+  "label": "title:hanford HLW glass",
+  "params": "title=hanford+high+level+waste+glass"
+ },
+ {
+  "label": "title:waste glass vitrification",
+  "params": "title=waste+glass+vitrification"
+ },
+ {
+  "label": "title:enhanced waste glass",
+  "params": "title=enhanced+waste+glass"
+ },
+ {
+  "label": "title:nepheline",
+  "params": "title=nepheline"
+ },
+ {
+  "label": "title:product consistency test",
+  "params": "title=product+consistency+test"
+ },
+ {
+  "label": "title:low activity waste glass",
+  "params": "title=low+activity+waste+glass"
+ },
+ {
+  "label": "title:ILAW immobilized",
+  "params": "title=immobilized+low+activity+waste"
+ },
+ {
+  "label": "title:waste glass property",
+  "params": "title=waste+glass+property"
+ },
+ {
+  "label": "title:borosilicate waste glass",
+  "params": "title=borosilicate+waste+glass"
+ },
+ {
+  "label": "title:iron phosphate glass",
+  "params": "title=iron+phosphate+glass"
+ },
+ {
+  "label": "title:high alumina glass",
+  "params": "title=high+alumina+glass"
+ },
+ {
+  "label": "title:aluminosilicate glass",
+  "params": "title=aluminosilicate+glass"
+ },
+ {
+  "label": "title:LAW glass formulation",
+  "params": "title=glass+formulation+low+activity"
+ },
+ {
+  "label": "title:vitrification melter waste",
+  "params": "title=vitrification+waste+melter"
+ },
+ {
+  "label": "authors:Vienna",
+  "params": "authors=Vienna"
+ },
+ {
+  "label": "authors:Jantzen",
+  "params": "authors=Jantzen"
+ },
+ {
+  "label": "authors:Hrma",
+  "params": "authors=Hrma"
+ },
+ {
+  "label": "authors:Piepel",
+  "params": "authors=Piepel"
+ },
+ {
+  "label": "authors:Schweiger",
+  "params": "authors=Schweiger"
+ },
+ {
+  "label": "authors:Kim DS",
+  "params": "authors=Seung-Deok+Kim"
+ },
+ {
+  "label": "report:PNNL-35884",
+  "params": "report_number=PNNL-35884"
+ },
+ {
+  "label": "report:PNNL-30682",
+  "params": "report_number=PNNL-30682"
+ },
+ {
+  "label": "description:hanford glass",
+  "params": "description=hanford+waste+glass"
+ },
+ {
+  "label": "description:waste glass model hanford",
+  "params": "description=waste+glass+model+hanford"
+ }
+]

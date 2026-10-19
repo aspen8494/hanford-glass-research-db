@@ -1,0 +1,96 @@
+[
+ {
+  "label": "author:Vienna",
+  "params": "author=Vienna"
+ },
+ {
+  "label": "author:Jantzen",
+  "params": "author=Jantzen"
+ },
+ {
+  "label": "author:Hrma",
+  "params": "author=Hrma"
+ },
+ {
+  "label": "author:Piepel",
+  "params": "author=Piepel"
+ },
+ {
+  "label": "author:Schweiger",
+  "params": "author=Schweiger"
+ },
+ {
+  "label": "author:Kim DS",
+  "params": "author=Seung-Deok+Kim"
+ },
+ {
+  "label": "report:PNNL-35884",
+  "params": "identifier=PNNL-35884"
+ },
+ {
+  "label": "report:PNNL-30682",
+  "params": "identifier=PNNL-30682"
+ },
+ {
+  "label": "fulltext:hanford glass",
+  "params": "fulltext=hanford+waste+glass",
+  "max_rows": 2000
+ },
+ {
+  "label": "fulltext:waste glass model",
+  "params": "fulltext=waste+glass+composition+model",
+  "max_rows": 2000
+ },
+ {
+  "label": "biblio:hanford glass",
+  "params": "biblio=hanford+waste+glass"
+ },
+ {
+  "label": "author:Peeler",
+  "params": "author=Peeler"
+ },
+ {
+  "label": "author:Kruger",
+  "params": "author=Kruger"
+ },
+ {
+  "label": "author:Ryan JV",
+  "params": "author=Jarvis+V.+Ryan"
+ },
+ {
+  "label": "author:Lonergan",
+  "params": "author=Lonergan"
+ },
+ {
+  "label": "author:Lang JB",
+  "params": "author=John+B.+Lang"
+ },
+ {
+  "label": "author:Deng",
+  "params": "author=Baixin+Deng"
+ },
+ {
+  "label": "author:Seo",
+  "params": "author=Hawon+Seo"
+ },
+ {
+  "label": "author:Kim Dong-Sung",
+  "params": "author=Dong-Sung+Kim"
+ },
+ {
+  "label": "author:McCloy J",
+  "params": "author=John+McCloy"
+ },
+ {
+  "label": "author:Gang Zhang",
+  "params": "author=Gang+Zhang"
+ },
+ {
+  "label": "author:Sundaram S",
+  "params": "author=Sundaram"
+ },
+ {
+  "label": "author:Diego Gombau",
+  "params": "author=Diego+Fernandez"
+ }
+]

@@ -1,0 +1,8 @@
+The Hanford Glass Research Database
+
+- Code (scripts/, ui/): MIT License (see scripts/LICENSE)
+- Data (db/, data/records.jsonl, ui/records_ui.json): CC0 1.0 (see data/LICENSE)
+
+Bibliographic metadata originates from OSTI (osti.gov), OpenAlex and Crossref
+under their respective terms. DOIs and links resolve to documents whose
+contents remain copyrighted by their publishers.
