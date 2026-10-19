@@ -1,0 +1,898 @@
+{
+ "ok": 53,
+ "redirect": 0,
+ "fail": 1,
+ "no_url": 0,
+ "bot_blocked": 22,
+ "transient": 4,
+ "details": [
+  {
+   "id": "r7c06b5e749e8",
+   "title": "Search for heavy resonances decaying to a photon and a hadronically decaying Z /",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1103/physrevd.98.032015",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "rff732fb96db2",
+   "title": "Durability and Fire Performance of Gypsum Composites Reinforced with Recycled Po",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.3390/app16031489",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "r80d8879a4975",
+   "title": "Data for EMSL Project 51400 from July 2021",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.25582/data.2021-07.2278349/2177224",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "id": "r9f244578efd3",
+   "title": "Corrosion Assessment of High-Strength Materials Used in a Void Fraction Instrume",
+   "source": [
+    "Crossref"
+   ],
+   "checked_url": "https://doi.org/10.5006/c1996-96113",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "rf1ccb5b2bfbf",
+   "title": "Mechanical behavior and durability of latex modified mortars",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.34118/jbms.v5i1.50",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "r5ec35c56c700",
+   "title": "TENDL-2017: the making of multi-faceted technological nuclear data library - 253",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://www.osti.gov/biblio/23055070",
+   "kind": "osti",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r464345e7187f",
+   "title": "Measurement of the atmospheric muon rate with the MicroBooNE Liquid Argon TPC",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1088/1748-0221/16/04/p04004",
+   "kind": "doi",
+   "status": "error:URLError",
+   "content_type": ""
+  },
+  {
+   "id": "r7342f6938cc7",
+   "title": "Removal of arsenic and metals from groundwater impacted by mine waste using zero",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.jhazmat.2021.127295",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "rb376f9a3d7ce",
+   "title": "Lanthanide (Ce, Nd, Eu) environments and leaching behavior in borosilicate glass",
+   "source": [
+    "Crossref"
+   ],
+   "checked_url": "https://doi.org/10.1038/s41598-021-92777-w",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "r4c3daea60e0c",
+   "title": "Evaluation of liquid-fed ceramic melter off-gas system technologies for the Hanf",
+   "source": [
+    "OSTI",
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.2172/10156745",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "rb7dd858b7fd7",
+   "title": "A CONCEPT OF MULTI-CRITERIA OPTIMIZATION OF GLASS-FIBER COMPOSITES FOR MECHANICA",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.21474/ijar01/24021",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "id": "r27f7ca84ea01",
+   "title": "RESEARCH REACTOR UTILIZATION IN THE CONTEXT OF NUCLEAR POWER PROGRAMME IN DEVELO",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://www.osti.gov/biblio/4667110",
+   "kind": "osti",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r455ad5299c0b",
+   "title": "Property and process correlations for iron-enriched basalt waste forms",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.2172/10172001",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r9e0fdc44410b",
+   "title": "FORMATION AND REACTIONS OF RADIATION-INDUCED FREE RADICALS IN CHEMICALLY MODIFIE",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1002/pol.1971.150090919",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "r737859befa96",
+   "title": "\u653e\u5c04\u6027\u30bb\u30ec\u30f3\u304a\u3088\u3073\u30e8\u30a6\u7d20\u306e\u30bb\u30e1\u30f3\u30c8\u95a2\u9023\u6750\u6599\u4e2d\u3078\u306e\u57cb\u8a2d\u306b\u5411\u3051\u305f\u56fa\u5b9a\u5316\u306b\u95a2\u3059\u308b\u7814\u7a76",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://catalog.lib.kyushu-u.ac.jp/opac_download_md/1959101/eng2774_abstract.pdf",
+   "kind": "pdf",
+   "status": 404,
+   "content_type": ""
+  },
+  {
+   "id": "rf7441a17f28e",
+   "title": "Impact of various DIII-D diagnostics on the accuracy of neural network surrogate",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1088/1741-4326/ad5d7b",
+   "kind": "doi",
+   "status": "error:URLError",
+   "content_type": ""
+  },
+  {
+   "id": "radcb3226909f",
+   "title": "Search for Higgs boson pair production in the \u03b3 \u03b3 b b \u203e final state in pp collis",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.physletb.2018.10.056",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r2c94f8afd2c3",
+   "title": "Pre\u2010Viking Swedish hillfort glass: A prospective long\u2010term alteration analogue f",
+   "source": [
+    "OSTI",
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.1111/ijag.12351",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "rcf76dac432db",
+   "title": "Dependence of aggregation behavior on concentration in triblock copolymer soluti",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1063/1.4936581",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "rb3c8558f1e44",
+   "title": "Metal Emissions from Joule-Heated Vitrification Systems",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.1080/10473289.1999.10463795",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "rca6bd9d345d1",
+   "title": "Numerical study of the hydrodynamics in a two-phase induction melter for nuclear",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.euromechflu.2019.09.005",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "rb3653dedc0ce",
+   "title": "Optimal Use of Calcined Boron Waste as a Flux in the Production of Low-Temperatu",
+   "source": [
+    "Crossref"
+   ],
+   "checked_url": "https://doi.org/10.1134/s1087659623600217",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "rcef117c96c04",
+   "title": "Radiation effects in solidified high-level waste. Part I. Stored energy",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.2172/4058327",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "rbb7820a5601b",
+   "title": "Enzyme immobilization and its applications in food processing: A review",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.22271/chemi.2020.v8.i2d.8779",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "id": "r742bacd3f047",
+   "title": "Rapid Coal-Ash Characterization using Geophysical Methods & Machine Learning",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.jappgeo.2026.106336",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r1a1188aef3b7",
+   "title": "Three-dimensional time-resolved optical mammography of the uncompressed breast",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1364/ao.46.003628",
+   "kind": "doi",
+   "status": "error:URLError",
+   "content_type": ""
+  },
+  {
+   "id": "re24ba7045182",
+   "title": "Advancing nuclear forensics competencies at the National Nuclear Center of the R",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1007/s10967-025-10452-0",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "rf6cb7356d106",
+   "title": "Search for Massive Resonances Decaying into Pairs of Boosted Bosons in Semi-Lept",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1007/jhep08(2014)174",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "r56bef46cc2f6",
+   "title": "Machine Learning with Gradient-Based Optimization of Nuclear Waste Vitrification",
+   "source": [
+    "OSTI",
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.3390/pr10112365",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "rd8e4ebf3166b",
+   "title": "Current Prospects for Plastic Waste Treatment",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.3390/polym14153133",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "ra1b08c372ea4",
+   "title": "Mechanical and durability properties of sintered fly ash aggregate concrete",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.32047/cwb.2021.26.5.3",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "id": "r6066614afe30",
+   "title": "Measurement of the nuclear modification factor for inclusive jets in Pb+Pb colli",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.physletb.2018.10.076",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "raad8107e30b0",
+   "title": "Polypropylene Composites Reinforced With Recycled Waste Cellulosic Fiber/Fine Mi",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1002/amp2.70022",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "rc00fee382351",
+   "title": "Heavy metals incorporated-alkali-activated waste glass binder and foamed glass: ",
+   "source": [
+    "OpenAlex",
+    "Crossref"
+   ],
+   "checked_url": "https://doi.org/10.1038/s41598-026-65831-8",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "rdbc44846bddb",
+   "title": "Characterization Study of Dyes Photodegradation-Adsorption Products by TiO2-Chit",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.15408/jkv.v9i1.31855",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "rac39630f1afb",
+   "title": "Application of microwave energy to post-calcination treatment of high-level nucl",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.2172/6071869",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "application/pdf"
+  },
+  {
+   "id": "r83eb1aaacc5c",
+   "title": "Dielectrical Properties of a Novel Porcelain Produced from Natural Clay, Waste G",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.1515/htmp.2009.28.1-2.55",
+   "kind": "doi",
+   "status": 202,
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "id": "r060d43129265",
+   "title": "Composition and origins of decorated glass from Umayyad Cordoba (Spain)",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.1186/s40494-021-00505-4",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "r578b9510064e",
+   "title": "Next-generation perovskite photovoltaics: improving, stabilizing, and lead-seali",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.2172/2997653",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r128523a78cb9",
+   "title": "Support for the in situ vitrification treatability study at the Idaho National E",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.2172/6517378",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "application/pdf"
+  },
+  {
+   "id": "r1da5b692fd66",
+   "title": "The Gene Ontology resource: enriching a GOld mine",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1093/nar/gkaa1113",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "rf710433098c8",
+   "title": "Influence of the composition of alkali borosilicate glass and leaching solution ",
+   "source": [
+    "Crossref"
+   ],
+   "checked_url": "https://doi.org/10.1134/s1087659608020181",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "r980109bf8afc",
+   "title": "Structure and crystallization behavior of phosphorus-containing nepheline (NaAlS",
+   "source": [
+    "OSTI",
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.jnoncrysol.2021.120719",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r39278c54ab23",
+   "title": "Predation by a ciliate community mediates temperature and nutrient effects on a ",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1128/msphere.00309-25",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "r8960a3a688d7",
+   "title": "STUDY OF THE USE OF HIGH ALUMINA CEMENT IN THE PRODUCTION OF PROPPANTS FOR HYDRA",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.15593/2224-9877/2018.4.12",
+   "kind": "doi",
+   "status": "error:ConnectionResetError",
+   "content_type": ""
+  },
+  {
+   "id": "r00f2ff46f951",
+   "title": "Integrated simple ceramic filter and waste stabilization pond for domestic waste",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.eti.2019.100319",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "reb96d1819841",
+   "title": "Effect of the nature of alkali and alkaline-earth oxides on the structure and cr",
+   "source": [
+    "arXiv"
+   ],
+   "checked_url": "http://arxiv.org/pdf/0912.1576v1",
+   "kind": "pdf",
+   "status": 200,
+   "content_type": "application/pdf"
+  },
+  {
+   "id": "r032df0f6ccf9",
+   "title": "The three-dimensional construction of leaves is coordinated with water use effic",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1111/nph.17772",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "r250d894408fe",
+   "title": "Stabilization of Arsenic Wastes",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "http://hdl.handle.net/2142/1955",
+   "kind": "pdf",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "r2c15e93d2f16",
+   "title": "Characterization of Technetium Speciation in Cast Stone",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.2172/1110479",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r7b5d89210100",
+   "title": "Functionalized TiO2-waste-derived photocatalytic materials for emerging pollutan",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.1007/s10661-025-14431-6",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "re5b22a06e5a2",
+   "title": "Heat transfer and hydrodynamics analysis of a novel dimpled tube",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.expthermflusci.2010.05.008",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r40be348778c7",
+   "title": "Immobilization of Simulated High-Level Waste in Sodium-Aluminum-Iron Phosphate G",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.2139/ssrn.7065058",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "rd49ffe71a0b2",
+   "title": "Sr$sup 90$ CONCENTRATION IN PRECIPITATION FROM CONVECTIVE SHOWERS",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1175/1520-0450(1963)002<0379:scipfc>2.0.co;2",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r00137368e59a",
+   "title": "Synthesis and Characterization of Layered Actinide (U, Np, Pu) Oxide and Hydroxi",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1021/acs.inorgchem.6c01556",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "re099cdfd272d",
+   "title": "Crystal structure and enhanced microwave dielectric properties of non-stoichiome",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.matlet.2018.10.011",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "rf7dc32993ae6",
+   "title": "Institute for Nuclear Waste Disposal. Annual report 2006",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.5445/ir/270069905",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "id": "r231565157769",
+   "title": "Green Concrete with Glass Powder\u2014A Literature Review",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.3390/su152014864",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "r24fa932a8612",
+   "title": "Effects of alpha decay on the properties of actual nuclear waste glass",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://www.osti.gov/biblio/382924",
+   "kind": "osti",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r346ad0f73d40",
+   "title": "Obtaining Foamed Glass-Ceramics from Diamond Concentration Tailings",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.3390/ceramics6020068",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "rc6b849adca84",
+   "title": "Comparison of West Valley and Savannah River waste glass: Part I, Durability of ",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://www.osti.gov/biblio/6755060",
+   "kind": "osti",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r3313748652df",
+   "title": "Strong correspondence principle and the classical-resonance overlap criterion fo",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1103/physreva.51.4018",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "r183e98e2a9df",
+   "title": "Search for pair production of Higgsinos in final states with at least three b -t",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1103/physrevd.98.092002",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "r44a000027544",
+   "title": "Sustainable concrete for circular economy: a review on use of waste glass",
+   "source": [
+    "Crossref"
+   ],
+   "checked_url": "https://doi.org/10.1007/s40940-021-00155-9",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "r418c85e56b29",
+   "title": "Oxide Shell Reduction and Magnetic Property Changes in Core-Shell Fe Nanocluster",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1063/1.4862520",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "rbd6644bbebd7",
+   "title": "Use of DWPF redox measurement technique on glasses from West Valley Nuclear Fuel",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.2172/6017278",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "application/pdf"
+  },
+  {
+   "id": "rd6d25744d81e",
+   "title": "Spectroscopic study of the role of alkaline earth oxides in mixed borate glasses",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.jnoncrysol.2020.119892",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "reeac1436b160",
+   "title": "Spectroscopic investigation of historical uranium glasses",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.culher.2022.11.008",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r0690024a925c",
+   "title": "Attosecond nanoscale near-field sampling",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1038/ncomms11717",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "r506d8e4053b9",
+   "title": "Recent Progress in Chemically Bonded Phosphate Ceramics",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.1155/2013/983731",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "r38a68929a25b",
+   "title": "Catalytic behavior of Pt single-atoms supported on CeO2",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.cattod.2023.114298",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r9da1db23b9ab",
+   "title": "Sustainable Stabilization of Expansive Soil for Subgrade Applications Using Wast",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.21203/rs.3.rs-8918321/v1",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "r5bad908c86a1",
+   "title": "Search for heavy long-lived charged particles in pp collisions at s = 7 TeV",
+   "source": [
+    "OSTI"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.physletb.2012.06.023",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "rb778ce205330",
+   "title": "Evaluation of Iron\u2010Phosphate Glass\u2013Ceramic Waste Form for Electrorefiner Salt Wa",
+   "source": [
+    "OSTI",
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.1002/ces2.70051",
+   "kind": "doi",
+   "status": 403,
+   "content_type": ""
+  },
+  {
+   "id": "r4706974cf9be",
+   "title": "Physical and optical properties of the International Simple Glass",
+   "source": [
+    "OSTI",
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.1038/s41529-019-0069-2",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "r0282003d62d2",
+   "title": "Fabrication of thermal insulation geopolymer bricks using ferrosilicon slag and ",
+   "source": [
+    "OpenAlex"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.cscm.2021.e00737",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r0447e1442a76",
+   "title": "Matt waste from glass separated collection: An eco-sustainable addition for new ",
+   "source": [
+    "Crossref"
+   ],
+   "checked_url": "https://doi.org/10.1016/j.wasman.2008.02.028",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  {
+   "id": "r7def3d4e7057",
+   "title": "Money for nothing [Hanford nuclear waste reservation]",
+   "source": [
+    "Crossref"
+   ],
+   "checked_url": "https://doi.org/10.1109/mspec.2002.1015392",
+   "kind": "doi",
+   "status": 202,
+   "content_type": "text/html; charset=UTF-8"
+  },
+  {
+   "id": "r4f7c7569e723",
+   "title": "Effect of the granular composition of grog on the properties of acid-proof mater",
+   "source": [
+    "Crossref"
+   ],
+   "checked_url": "https://doi.org/10.1007/bf00676033",
+   "kind": "doi",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8"
+  },
+  {
+   "id": "rebd45273fd90",
+   "title": "Physical Modeling of a Glass Melter Designed for Vitrification of Defense Waste",
+   "source": [
+    "OSTI",
+    "OpenAlex"
+   ],
+   "checked_url": "https://www.osti.gov/biblio/786318",
+   "kind": "osti",
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8"
+  }
+ ]
+}

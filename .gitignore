@@ -1,21 +1,15 @@
 # OS
 .DS_Store
 
-# harvested raw API dumps (regenerable via scripts/harvest_*)
+# raw API dumps (regenerable via scripts/harvest_*; large)
 data/raw_osti/
 data/raw_openalex/
 data/raw_misc/
 data/raw_web/
 data/raw_curated/
-data/verification_report.json
 
-# heavyweight intermediates (regenerable via scripts/build_records.py)
+# uncompressed full dump (gzipped copy is published)
 data/records.jsonl
-data/records_summary.json
-
-# built databases and UI data (regenerable via scripts/build_sqlite.py)
-db/
-ui/records_ui.json
 
 # logs
 *.log
