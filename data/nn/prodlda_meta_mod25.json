@@ -1,0 +1,8 @@
+{
+ "n_docs": 3964,
+ "vocab_size": 2858,
+ "n_topics": 25,
+ "epochs": 80,
+ "dropped_dups": 156,
+ "seed": 42
+}

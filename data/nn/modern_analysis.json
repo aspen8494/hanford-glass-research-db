@@ -1,0 +1,802 @@
+{
+ "labels": [
+  "mortars/neural/accuracy",
+  "extraction/coal/alkaline",
+  "concrete/data/sand",
+  "site/high-level/radioactive",
+  "alumina/sample/effects",
+  "grout/reviewed/gaps",
+  "formulations/metal/sintering",
+  "conversion/reduction/x-ray",
+  "zeolite/natural/tank",
+  "cold/refractory/pool",
+  "low-activity/exchange/speciation",
+  "characterization/properties/melter",
+  "off-gas/system/facility",
+  "structure/borosilicate/synthesis",
+  "reduction/oxidation/sodium",
+  "feeds/melter/melting",
+  "soil/filters/rise",
+  "cast/analysis/stone",
+  "oxide/yields/solvents",
+  "water/performance/filters",
+  "phosphate/cesium/radioactive",
+  "crystal/heat/structure",
+  "glasses/solution/borosilicate",
+  "durability/sludge/ceramic",
+  "melter/high-level/nepheline"
+ ],
+ "coherence": [
+  0.1712970260815753,
+  0.02281125943161262,
+  0.03151499902342131,
+  0.171194018905696,
+  0.05092451651716991,
+  -0.060521217430725735,
+  0.05372351683716703,
+  0.024457898012877205,
+  0.00828734381875115,
+  0.02402793436524639,
+  0.042167720194448546,
+  0.042470310640513244,
+  0.15533029196573064,
+  0.08223717297936362,
+  -0.011354054756144327,
+  0.16273034777590697,
+  -0.17507973066558002,
+  -0.13017051141636896,
+  0.04432260806620018,
+  -0.09493337716788515,
+  0.010804514331082473,
+  0.09898651437970223,
+  0.06329211791775359,
+  0.0052890151500964355,
+  0.10643703099980507
+ ],
+ "periods": {
+  "2010-14": [
+   0.0293427761644125,
+   0.02745812200009823,
+   0.03559490293264389,
+   0.043254509568214417,
+   0.03501975163817406,
+   0.04338150471448898,
+   0.035691700875759125,
+   0.04126770421862602,
+   0.0354403555393219,
+   0.042990438640117645,
+   0.04295710101723671,
+   0.04448544606566429,
+   0.053337279707193375,
+   0.02991987019777298,
+   0.04217015951871872,
+   0.05151310935616493,
+   0.03691067174077034,
+   0.03426533564925194,
+   0.02746620774269104,
+   0.025337817147374153,
+   0.04649556055665016,
+   0.051836542785167694,
+   0.04073433578014374,
+   0.034900229424238205,
+   0.06822847574949265
+  ],
+  "2015-19": [
+   0.032074280083179474,
+   0.03549611195921898,
+   0.03353704884648323,
+   0.047263290733098984,
+   0.04090754687786102,
+   0.03668484464287758,
+   0.03516624867916107,
+   0.04746988043189049,
+   0.04111872613430023,
+   0.03726699575781822,
+   0.04545649513602257,
+   0.04105214402079582,
+   0.05257140100002289,
+   0.03642987459897995,
+   0.041651494801044464,
+   0.045123398303985596,
+   0.03374151885509491,
+   0.03614949807524681,
+   0.031496550887823105,
+   0.030535083264112473,
+   0.0411033108830452,
+   0.04781302809715271,
+   0.04327904060482979,
+   0.03598576784133911,
+   0.05062646046280861
+  ],
+  "2020-26": [
+   0.03863409906625748,
+   0.04993080720305443,
+   0.04208894073963165,
+   0.04325684532523155,
+   0.04118223860859871,
+   0.034166350960731506,
+   0.044896166771650314,
+   0.03994755446910858,
+   0.03856579586863518,
+   0.04095052182674408,
+   0.03741798922419548,
+   0.03853202611207962,
+   0.03462821990251541,
+   0.0485772043466568,
+   0.037984978407621384,
+   0.03789689764380455,
+   0.03447255119681358,
+   0.03567126765847206,
+   0.043928515166044235,
+   0.04553135856986046,
+   0.0387355275452137,
+   0.038498662412166595,
+   0.037240564823150635,
+   0.04507574066519737,
+   0.032189276069402695
+  ]
+ },
+ "relative": {
+  "2010-14": [
+   0.8282484046528291,
+   0.6451119341620695,
+   0.9157360771933948,
+   0.9775805616869856,
+   0.8742919806573143,
+   1.193287132629085,
+   0.8721384561005474,
+   0.9816184165497431,
+   0.9168415760220355,
+   1.064691779640235,
+   1.065032292124815,
+   1.10720709519204,
+   1.2632481822344686,
+   0.7049646150782153,
+   1.0650782651403636,
+   1.2269010209546443,
+   1.0638752521005832,
+   0.9633932737612378,
+   0.7213068885264534,
+   0.659901567331694,
+   1.1437477531337914,
+   1.203793618462897,
+   1.0355906813564146,
+   0.8491162300506435,
+   1.5925313650980364
+  ],
+  "2015-19": [
+   0.9053496220136301,
+   0.8339596364661502,
+   0.862794473957024,
+   1.0681816708422696,
+   1.021284803878805,
+   1.0090833262457641,
+   0.8592988587641562,
+   1.1291471077842623,
+   1.0637409557351074,
+   0.9229462478247464,
+   1.1269995893636504,
+   1.021754959264156,
+   1.2451089953476142,
+   0.8583517359620471,
+   1.051978515839088,
+   1.074715623654689,
+   0.9725308477268991,
+   1.0163677849832444,
+   0.827150196089826,
+   0.7952598752840804,
+   1.0111034022605982,
+   1.11035603476258,
+   1.1002848159918974,
+   0.875527182170738,
+   1.1816800141767478
+  ],
+  "2020-26": [
+   1.0905113659843708,
+   1.1730940524235633,
+   1.0828056353761977,
+   0.9776333513424359,
+   1.028142670257133,
+   0.939807580180902,
+   1.0970526092146344,
+   0.9502165411300546,
+   0.9976966801451034,
+   1.0141716470002766,
+   0.92770149489734,
+   0.9590312445208576,
+   0.8201399862537134,
+   1.1445641287028607,
+   0.9593744810432906,
+   0.9026001922874218,
+   0.9936013723248186,
+   1.0029220107598453,
+   1.1536336173106516,
+   1.1858249157073135,
+   0.9528581237838972,
+   0.8940496730886222,
+   0.9467683996974262,
+   1.0966845666003335,
+   0.7513348524527843
+  ]
+ },
+ "growth": [
+  0.2622629613315417,
+  0.5279821182614939,
+  0.1670695581828029,
+  5.2789655450302675e-05,
+  0.15385068959981874,
+  -0.253479552448183,
+  0.22491415311408702,
+  -0.03140187541968853,
+  0.08085510412306784,
+  -0.05052013263995847,
+  -0.137330797227475,
+  -0.14817585067118244,
+  -0.4431081959807551,
+  0.43959951362464544,
+  -0.10570378409707304,
+  -0.32430082866722243,
+  -0.0702738797757646,
+  0.03952873699860748,
+  0.4323267287841982,
+  0.5259233483756195,
+  -0.19088962934989417,
+  -0.30974394537427485,
+  -0.08882228165898842,
+  0.24756833654969002,
+  -0.8411965126452521
+ ],
+ "exemplars": {
+  "0": [
+   {
+    "title": "Impact of various DIII-D diagnostics on the accuracy of neural network surrogates for kinetic EFIT r",
+    "year": 2024,
+    "theta": 0.647
+   },
+   {
+    "title": "Polaronic transport in iron phosphate glasses containing HfO 2 and CeO 2",
+    "year": 2016,
+    "theta": 0.609
+   },
+   {
+    "title": "Thermodynamics and transport in molten chloride salts and their mixtures",
+    "year": 2025,
+    "theta": 0.538
+   },
+   {
+    "title": "One-Shot learning based classification for segregation of plastic waste",
+    "year": 2020,
+    "theta": 0.464
+   }
+  ],
+  "1": [
+   {
+    "title": "Extensive reuse of soda-lime waste glass in fly ash-based geopolymers",
+    "year": 2018,
+    "theta": 0.494
+   },
+   {
+    "title": "Removal of lead from cathode ray tube funnel glass by combined thermal treatment and leaching proces",
+    "year": 2015,
+    "theta": 0.481
+   },
+   {
+    "title": "Selective electrified polyethylene upcycling by pore-modulated pyrolysis",
+    "year": 2025,
+    "theta": 0.466
+   },
+   {
+    "title": "Mechanochemical formation of highly stable amorphous calcium carbonate in calcium silicates: Potenti",
+    "year": 2023,
+    "theta": 0.438
+   }
+  ],
+  "2": [
+   {
+    "title": "Analysis of Air-Purifying Respirator (APR) and Powered Air-Purifying Respirator (PAPR) Cartridge Per",
+    "year": 2020,
+    "theta": 0.714
+   },
+   {
+    "title": "Analysis of Air-Purifying Respirator (APR) Cartridge Performance Testing on Hanford Tanks SX-101 and",
+    "year": 2020,
+    "theta": 0.695
+   },
+   {
+    "title": "Response tests on the effects of particle size of waste glass sand and glass powder on the mechanica",
+    "year": 2024,
+    "theta": 0.668
+   },
+   {
+    "title": "Sustainable use of waste glass sand and waste glass powder in alkali-activated slag foam concretes: ",
+    "year": 2024,
+    "theta": 0.644
+   }
+  ],
+  "3": [
+   {
+    "title": "Valorization of industrial wastes for stabilizing highly expansive clays: Mechanical, microstructura",
+    "year": 2025,
+    "theta": 0.675
+   },
+   {
+    "title": "Simulated nuclear waste loading of phosphorus-doped borosilicate glass: Waste-loading, morphology, a",
+    "year": 2026,
+    "theta": 0.667
+   },
+   {
+    "title": "Radioactive Waste Immobilization in Glass Composite Material",
+    "year": 2026,
+    "theta": 0.66
+   },
+   {
+    "title": "Disposal concepts for waste in underground single-shell storage tanks at the Hanford Site",
+    "year": 2025,
+    "theta": 0.648
+   }
+  ],
+  "4": [
+   {
+    "title": "Optimized Compressive Strength and Durability of Treated and untreated Jute Fibre Concrete Blended w",
+    "year": 2026,
+    "theta": 0.645
+   },
+   {
+    "title": "Fabrication of Calcium Phosphate Glass Using Eggshell and its Crystallization Behavior",
+    "year": 2017,
+    "theta": 0.484
+   },
+   {
+    "title": "Direct-Feed High-Level Waste Feed Vectors Assessment",
+    "year": 2024,
+    "theta": 0.476
+   },
+   {
+    "title": "Effect of crystallization behavior and phase evolution on glass-ceramics derived from alumina silica",
+    "year": 2025,
+    "theta": 0.45
+   }
+  ],
+  "5": [
+   {
+    "title": "Compilation and Management of ORP Glass Formulation Database",
+    "year": 2012,
+    "theta": 0.731
+   },
+   {
+    "title": "Evaluation of Technology for Dry Retrieval of Tank Waste",
+    "year": 2024,
+    "theta": 0.666
+   },
+   {
+    "title": "Database work for the new cross section standards evaluation",
+    "year": 2023,
+    "theta": 0.607
+   },
+   {
+    "title": "Effluent Management Facility Evaporator Bottom-Waste Streams Formulation and Waste Form Qualificatio",
+    "year": 2017,
+    "theta": 0.518
+   }
+  ],
+  "6": [
+   {
+    "title": "FY2016 Update on ILAW Glass Testing for Disposal at IDF",
+    "year": 2017,
+    "theta": 0.733
+   },
+   {
+    "title": "Valorization of kitchen waste via garbage enzyme fermentation: optimization and formulation of a sus",
+    "year": 2026,
+    "theta": 0.691
+   },
+   {
+    "title": "Improved leach resistance of FLiBe by conversion to a substituted fluorapatite",
+    "year": 2022,
+    "theta": 0.597
+   },
+   {
+    "title": "Selection of LAW Glasses for FY 2016 SPFT Testing",
+    "year": 2016,
+    "theta": 0.581
+   }
+  ],
+  "7": [
+   {
+    "title": "Microbially mediated iron redox cycling of subsurface sediments from Hanford Site, Washington State,",
+    "year": 2020,
+    "theta": 0.623
+   },
+   {
+    "title": "Expanded Diversity of Microbial Groups Capable of Anaerobic Pyrite Reduction and Assimilation of Dis",
+    "year": 2025,
+    "theta": 0.606
+   },
+   {
+    "title": "Efficient Capture of Perrhenate and Pertechnetate by a Mesoporous Zr Metal\u2013Organic Framework and Exa",
+    "year": 2018,
+    "theta": 0.575
+   },
+   {
+    "title": "Flammable Gas Controls on 56 Million Gallons of Radioactive Waste at DOE Hanford",
+    "year": 2020,
+    "theta": 0.5
+   }
+  ],
+  "8": [
+   {
+    "title": "THE EFFECT OF GROUND GLASS WASTE ON PROPERTIES OF HARDENED CEMENT PASTE AND MORTAR",
+    "year": 2020,
+    "theta": 0.738
+   },
+   {
+    "title": "OPACITY MEASUREMENT AND THEORETICAL INVESTIGATION OF HOT SILICON PLASMA",
+    "year": 2016,
+    "theta": 0.584
+   },
+   {
+    "title": "Complex Effect of Portland Cement Modified with Natural Zeolite and Ground Glass Mixture on Durabili",
+    "year": 2023,
+    "theta": 0.554
+   },
+   {
+    "title": "TC OXIDATION IN SLAG-BASED SODIUM SALT WASTE FORMS EXPOSED TO WATER AND MOIST HANFORD SOIL - 15514",
+    "year": 2015,
+    "theta": 0.54
+   }
+  ],
+  "9": [
+   {
+    "title": "The activities at the IAEA in support of high temperature reactors technology development - 18642",
+    "year": 2016,
+    "theta": 0.678
+   },
+   {
+    "title": "Structure\u2013reactivity relationships governing hydrothermal liquefaction of lignin from co-solvent enh",
+    "year": 2024,
+    "theta": 0.588
+   },
+   {
+    "title": "Millimeter Wave Rheometry: Theory and Experiment",
+    "year": 2011,
+    "theta": 0.572
+   },
+   {
+    "title": "Corrosion-resistant coatings in molten salts suggested by computational phase-stability diagrams",
+    "year": 2026,
+    "theta": 0.56
+   }
+  ],
+  "10": [
+   {
+    "title": "Integrative genomic profiling of large-cell neuroendocrine carcinomas reveals distinct subtypes of h",
+    "year": 2018,
+    "theta": 0.676
+   },
+   {
+    "title": "Retention of LDR Inorganics in Solidified/Immobilized Waste",
+    "year": 2026,
+    "theta": 0.655
+   },
+   {
+    "title": "Evolution of activation energy for boron dissolution in the borosilicate glass during the initial le",
+    "year": 2024,
+    "theta": 0.628
+   },
+   {
+    "title": "Multi-Combilipases: Co-Immobilizing Lipases with Very Different Stabilities Combining Immobilization",
+    "year": 2020,
+    "theta": 0.564
+   }
+  ],
+  "11": [
+   {
+    "title": "Reduced Sample Masses for Characterization of Simulated Hanford Low-Activity Waste Glasses",
+    "year": 2018,
+    "theta": 0.882
+   },
+   {
+    "title": "Properties of phosphate glass waste forms containing fluorides from a molten salt reactor",
+    "year": 2016,
+    "theta": 0.784
+   },
+   {
+    "title": "Iron phosphate glass containing simulated fast reactor waste: Characterization and comparison with p",
+    "year": 2014,
+    "theta": 0.746
+   },
+   {
+    "title": "Inventory and Waste Characterization Status Report",
+    "year": 2017,
+    "theta": 0.5
+   }
+  ],
+  "12": [
+   {
+    "title": "Subliquidus Phase Relations in the Low-Alumina Section of the Na2O\u2013Al2O3\u2013P2O5 System and the Radioac",
+    "year": 2018,
+    "theta": 0.669
+   },
+   {
+    "title": "Separation of fission products from high-level waste salt systems by partial crystallization: CsCl-N",
+    "year": 2024,
+    "theta": 0.628
+   },
+   {
+    "title": "Leaching and transport of technetium from reducing cementitious waste forms in field lysimeters",
+    "year": 2022,
+    "theta": 0.577
+   },
+   {
+    "title": "LABORATORY SIMULATION OF VAPOR SPACE CORROSION IN RADIOACTIVE WASTE STORAGE TANKS",
+    "year": 2014,
+    "theta": 0.566
+   }
+  ],
+  "13": [
+   {
+    "title": "Radiological and hydraulic durability of alkali-borosilicate radioactive waste immobilization matrix",
+    "year": 2024,
+    "theta": 0.733
+   },
+   {
+    "title": "Structure and crystallization behavior of phosphorus-containing nepheline (NaAlSiO4) based sodium al",
+    "year": 2021,
+    "theta": 0.688
+   },
+   {
+    "title": "Hanford construction history, Volume 3, pp. 636-983 (August 1945)",
+    "year": 2021,
+    "theta": 0.649
+   },
+   {
+    "title": "Influences of SrO on the structure, thermo-physical and chemical properties of zinc iron borophospha",
+    "year": 2021,
+    "theta": 0.588
+   }
+  ],
+  "14": [
+   {
+    "title": "Interim glycol flowsheet reduction/oxidation (redox) model for the Defense Waste Processing Facility",
+    "year": 2016,
+    "theta": 0.742
+   },
+   {
+    "title": "Nitric-glycolic flowsheet reduction/oxidation (redox) model for the defense waste processing facilit",
+    "year": 2017,
+    "theta": 0.611
+   },
+   {
+    "title": "Evolution of chromium, manganese and iron oxidation state during conversion of nuclear waste melter ",
+    "year": 2020,
+    "theta": 0.606
+   },
+   {
+    "title": "Impacts of Antifoam Additions and Argon Bubbling on Defense Waste Processing Facility (DWPF) REDucti",
+    "year": 2012,
+    "theta": 0.58
+   }
+  ],
+  "15": [
+   {
+    "title": "Production and Characterisation of Ceramic Foams from Industrial Solid Waste",
+    "year": 2015,
+    "theta": 0.485
+   },
+   {
+    "title": "Blast Furnace Slag as a Raw Material to Manufacture Gamma-Ray Transparent Shield Glass",
+    "year": 2015,
+    "theta": 0.466
+   },
+   {
+    "title": "Effects of iron oxalate on rhenium incorporation into low-activity waste glass",
+    "year": 2020,
+    "theta": 0.464
+   },
+   {
+    "title": "Phosphating sludge: properties and immobilization in ceramics",
+    "year": 2016,
+    "theta": 0.453
+   }
+  ],
+  "16": [
+   {
+    "title": "Connectivity dynamics in the vitrification of colloidal liquids",
+    "year": 2016,
+    "theta": 0.597
+   },
+   {
+    "title": "Population Balance Equations for Particle Dynamics in Liquids",
+    "year": 2026,
+    "theta": 0.533
+   },
+   {
+    "title": "Bulk Vitrification Technology for the Treatment and Immobilization of Low-Activity Waste",
+    "year": 2011,
+    "theta": 0.522
+   },
+   {
+    "title": "The Use of Waste Glass Experimental Model to Prevent Lethal Oceanic Waves and Flooding from Lagos Ar",
+    "year": 2014,
+    "theta": 0.496
+   }
+  ],
+  "17": [
+   {
+    "title": "X-ray absorption (XANES) and photoelectron spectroscopy (XPS) of gamma irradiated Nd doped phosphate",
+    "year": 2015,
+    "theta": 0.624
+   },
+   {
+    "title": "Composite Analysis for Low Level Waste Disposal in the Central Plateau of the Hanford Site (FY2019 A",
+    "year": 2020,
+    "theta": 0.532
+   },
+   {
+    "title": "Crystallization of Glass Fibers for Fireproof Insulation",
+    "year": 2017,
+    "theta": 0.515
+   },
+   {
+    "title": "Polymorphism in Photoluminescent KNdW2O8: Synthesis, Neutron Diffraction, and Raman Study",
+    "year": 2014,
+    "theta": 0.488
+   }
+  ],
+  "18": [
+   {
+    "title": "Comparative study of physicochemical and rheological property of waste cooking oil, castor oil, rubb",
+    "year": 2021,
+    "theta": 0.71
+   },
+   {
+    "title": "Microwave-Assisted Extraction of Pectin from \u201cSaba\u201d Banana Peel Waste: Optimization, Characterizatio",
+    "year": 2020,
+    "theta": 0.592
+   },
+   {
+    "title": "Durable High Efficiency Membrane and Electrode Assemblies for Heavy Duty Fuel Cell Vehicles",
+    "year": 2022,
+    "theta": 0.566
+   },
+   {
+    "title": "Mineralizer-assisted low-temperature rapid synthesis of Zr(1-x)NdxSiO4-based glass-ceramic waste for",
+    "year": 2026,
+    "theta": 0.538
+   }
+  ],
+  "19": [
+   {
+    "title": "Synergetic recycling of waste glass and recycled aggregates in cement mortars: Physical, durability ",
+    "year": 2020,
+    "theta": 0.647
+   },
+   {
+    "title": "Comparison of Accelerated Calcium Leaching Tests for Evaluating Long-term Durability of Cement-based",
+    "year": 2025,
+    "theta": 0.578
+   },
+   {
+    "title": "The Precision of Product Consistency Tests with Environmental Assessment Glass",
+    "year": 2020,
+    "theta": 0.546
+   },
+   {
+    "title": "Optimized Sustainable Brick Production with Waste Marble Powder and Sugarcane Bagasse Ash: Performan",
+    "year": 2026,
+    "theta": 0.473
+   }
+  ],
+  "20": [
+   {
+    "title": "Probing the Effect on Structure, Stability and Proton Beam Irradiation on Nd3+ and Ru4+ Loaded Iron ",
+    "year": 2022,
+    "theta": 0.836
+   },
+   {
+    "title": "Recent Progress in Chemically Bonded Phosphate Ceramics",
+    "year": 2013,
+    "theta": 0.718
+   },
+   {
+    "title": "Towards the Utilization of Fly Ash as a Feedstock for Smelter Grade Alumina Production: A Review of ",
+    "year": 2016,
+    "theta": 0.696
+   },
+   {
+    "title": "Porous calcium phosphate glass microspheres for orthobiologic applications",
+    "year": 2018,
+    "theta": 0.62
+   }
+  ],
+  "21": [
+   {
+    "title": "Applicability of vitrification method for waste generated from treatment of contaminated water (8) -",
+    "year": 2014,
+    "theta": 0.676
+   },
+   {
+    "title": "Binding Properties of Mechanically Activated Nepheline Containing Mining Waste",
+    "year": 2020,
+    "theta": 0.635
+   },
+   {
+    "title": "Recovery of palladium, cesium, and selenium from heavy metal alkali borosilicate glass by combinatio",
+    "year": 2017,
+    "theta": 0.623
+   },
+   {
+    "title": "Syntheses and Crystal Structures of Rare-Earth Oxyapatites Ca 2 RE 8 (SiO 4 ) 6 O 2 (RE = Pr, Tb, Ho",
+    "year": 2020,
+    "theta": 0.59
+   }
+  ],
+  "22": [
+   {
+    "title": "Enhancing Cerium Recovery from Leaching Solution of Glass Polishing Powder Waste Using Imidazolium I",
+    "year": 2020,
+    "theta": 0.595
+   },
+   {
+    "title": "IR and M\u00f6ssbauer spectroscopic study of cerium iron borophosphate glasses",
+    "year": 2015,
+    "theta": 0.511
+   },
+   {
+    "title": "Azithromycin \u201cghost peak\u201d: A solution degradation product of azithromycin via leaching from borosili",
+    "year": 2021,
+    "theta": 0.488
+   },
+   {
+    "title": "Leaching of borosilicate glasses containing simulated high-level waste in solutions of hydrogen pero",
+    "year": 2014,
+    "theta": 0.474
+   }
+  ],
+  "23": [
+   {
+    "title": "Research on chemical durability of iron phosphate glass wasteforms vitrifying SrF2 and CeF3",
+    "year": 2018,
+    "theta": 0.857
+   },
+   {
+    "title": "A glassy solution to nuclear waste",
+    "year": 2022,
+    "theta": 0.821
+   },
+   {
+    "title": "Utilization of Waste Based Construction Materials Advancing Towards a Green Economy",
+    "year": 2025,
+    "theta": 0.584
+   },
+   {
+    "title": "Using Brazilian Nepheline Syenite Waste as an Alternative Mineral Resource for Various Applications",
+    "year": 2025,
+    "theta": 0.549
+   }
+  ],
+  "24": [
+   {
+    "title": "Sulfate Separation from Hanford Waste Simulants by Selective Crystallization of Urea-Functionalized ",
+    "year": 2012,
+    "theta": 0.692
+   },
+   {
+    "title": "Uncertainty propagation and sensitivity analysis for constrained optimization of nuclear waste vitri",
+    "year": 2025,
+    "theta": 0.559
+   },
+   {
+    "title": "Nepheline Crystallization in High-Alumina High-Level Waste Glass",
+    "year": 2015,
+    "theta": 0.548
+   },
+   {
+    "title": "MELTING OF GLASS BATCH - MODEL FOR MULTIPLE OVERLAPPING GAS-EVOLVING REACTIONS",
+    "year": 2012,
+    "theta": 0.542
+   }
+  ]
+ },
+ "n_docs": 3964
+}

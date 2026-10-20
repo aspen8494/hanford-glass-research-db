@@ -181,6 +181,24 @@ render();
 html = html.replace("__PAYLOAD__", json.dumps(payload, ensure_ascii=False))
 html = html.replace("__DECADES__", json.dumps(DECADES))
 
+
+# --- post-inject "Modern era (DOE)" tab (added 2026-10-19) ---
+import re as _re
+ma = json.load(open(os.path.join(NN, "modern_doe_analysis.json")))
+payload_mod = {"labels": ma["labels"], "coherence": ma["coherence"],
+               "period_shares": ma["period_shares"], "growth": ma["growth"],
+               "top_terms": ma["top_terms"], "exemplars": ma["exemplars"],
+               "n_docs": ma["n_docs"]}
+html = html.replace("['topics','Topic browser']",
+                    "['topics','Topic browser'],['moddoe','Modern era (DOE)']")
+renderer = open(os.path.join(WS, "scripts", "nn", "_moddoe_renderer.js")).read()
+html = html.replace("function render() {", renderer + "\nfunction render() {")
+html = html.replace("else app.innerHTML = tabs() + topicList();",
+                    "else if (view === 'moddoe') app.innerHTML = tabs() + modernDOE();\n  else app.innerHTML = tabs() + topicList();")
+html = html.replace("<script>\n", "<script>\nwindow.__MODDOE__ = " + json.dumps(payload_mod, ensure_ascii=False) + ";\n")
+html = html.replace("document.querySelectorAll('.trow').forEach(el =>",
+                    "document.querySelectorAll('.mrow').forEach(el =>\n    el.onclick = () => { const r = document.getElementById('md'+el.dataset.k); r.style.display = r.style.display==='none'?'':'none'; });\n  document.querySelectorAll('.trow').forEach(el =>")
+
 out = os.path.join(WS, "ui", "topic_map.html")
 os.makedirs(os.path.dirname(out), exist_ok=True)
 open(out, "w").write(html)

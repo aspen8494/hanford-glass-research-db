@@ -1,0 +1,7 @@
+{
+ "n_docs": 1452,
+ "vocab_size": 2120,
+ "n_topics": 16,
+ "epochs": 100,
+ "seed": 42
+}

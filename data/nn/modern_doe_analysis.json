@@ -1,0 +1,519 @@
+{
+ "n_docs": 1452,
+ "labels": [
+  "composite/contaminants/infrastructure",
+  "forms/radioactive/phosphate",
+  "nuclear/high-level/cold",
+  "technetium/off-gas/effect",
+  "cold/stone/cast",
+  "pilot/joule/simulation",
+  "corrosion/concrete/steel",
+  "x-ray/phase/simulated",
+  "tank/testing/northwest",
+  "borosilicate/nuclear/formation",
+  "property/properties/statistical",
+  "dwpf/nuclear/processing"
+ ],
+ "coherence": [
+  -0.12105130316634881,
+  0.0765483739530707,
+  0.09467947846834807,
+  0.055755648420617004,
+  -0.3525570837122105,
+  -0.023000489295833277,
+  -0.002911304352988855,
+  0.1779284439983216,
+  0.41720205614003275,
+  0.0921123538993594,
+  0.1782459700955492,
+  0.1513714631910803
+ ],
+ "period_shares": {
+  "0": {
+   "2010-14": 0.04115839675068855,
+   "2015-19": 0.04591226577758789,
+   "2020-26": 0.06623690575361252
+  },
+  "1": {
+   "2010-14": 0.09505797177553177,
+   "2015-19": 0.08687413483858109,
+   "2020-26": 0.09674616903066635
+  },
+  "2": {
+   "2010-14": 0.11899962276220322,
+   "2015-19": 0.10746300965547562,
+   "2020-26": 0.09007523953914642
+  },
+  "3": {
+   "2010-14": 0.08397518843412399,
+   "2015-19": 0.0868205726146698,
+   "2020-26": 0.091464102268219
+  },
+  "4": {
+   "2010-14": 0.05689653381705284,
+   "2015-19": 0.041759416460990906,
+   "2020-26": 0.042659711092710495
+  },
+  "5": {
+   "2010-14": 0.06757394224405289,
+   "2015-19": 0.052796702831983566,
+   "2020-26": 0.047782525420188904
+  },
+  "6": {
+   "2010-14": 0.04995333030819893,
+   "2015-19": 0.04883361607789993,
+   "2020-26": 0.08442212641239166
+  },
+  "7": {
+   "2010-14": 0.09938070923089981,
+   "2015-19": 0.1247791051864624,
+   "2020-26": 0.09467461705207825
+  },
+  "8": {
+   "2010-14": 0.12953124940395355,
+   "2015-19": 0.14999507367610931,
+   "2020-26": 0.10651503503322601
+  },
+  "9": {
+   "2010-14": 0.08018363267183304,
+   "2015-19": 0.11009684205055237,
+   "2020-26": 0.11595149338245392
+  },
+  "10": {
+   "2010-14": 0.05281100794672966,
+   "2015-19": 0.05465337261557579,
+   "2020-26": 0.08430647104978561
+  },
+  "11": {
+   "2010-14": 0.12447841465473175,
+   "2015-19": 0.09001589566469193,
+   "2020-26": 0.07916560024023056
+  }
+ },
+ "exemplars": {
+  "0": [
+   {
+    "title": "LAW Glass Crystallization Constraints for WTP Operations: Assessment of CCC Impacts on VHT and PCT",
+    "year": 2021,
+    "theta": 0.902
+   },
+   {
+    "title": "Examples of Disposition Alternatives for WTP Solid Secondary Waste",
+    "year": 2018,
+    "theta": 0.775
+   },
+   {
+    "title": "Bulk Vitrification Technology for the Treatment and Immobilization of Low-Activity Waste",
+    "year": 2011,
+    "theta": 0.764
+   },
+   {
+    "title": "Durability and microstructural characteristics of alkali activated materials made with waste glass a",
+    "year": 2022,
+    "theta": 0.757
+   }
+  ],
+  "1": [
+   {
+    "title": "Current Understanding and Modeling of The Aging of Cementitious Waste Forms -- A Hanford Site Perspe",
+    "year": 2024,
+    "theta": 0.997
+   },
+   {
+    "title": "Research on chemical durability of iron phosphate glass wasteforms vitrifying SrF2 and CeF3",
+    "year": 2018,
+    "theta": 0.942
+   },
+   {
+    "title": "Toward Sustainable Cementitious Radioactive Waste Forms: Immobilization of Problematic Operational W",
+    "year": 2021,
+    "theta": 0.862
+   },
+   {
+    "title": "Recent Advances in Alternative Cementitious Materials for Nuclear Waste Immobilization: A Review",
+    "year": 2022,
+    "theta": 0.808
+   }
+  ],
+  "2": [
+   {
+    "title": "Evidence for dawsonite in Hanford high-level nuclear waste tanks",
+    "year": 2012,
+    "theta": 0.927
+   },
+   {
+    "title": "On the thermal and kinetic methods of nepheline precipitation within Hanford high-level nuclear wast",
+    "year": 2025,
+    "theta": 0.851
+   },
+   {
+    "title": "Cold-Cap Temperature Profile Comparison between the Laboratory and Mathematical Model",
+    "year": 2015,
+    "theta": 0.828
+   },
+   {
+    "title": "Evaluation of ecological resources at operating facilities at contaminated sites: The Department of ",
+    "year": 2019,
+    "theta": 0.818
+   }
+  ],
+  "3": [
+   {
+    "title": "Effect of V2O5, ZrO2, and waste components on chemical durability of a Japanese simulated high-level",
+    "year": 2025,
+    "theta": 0.89
+   },
+   {
+    "title": "Retention analysis from vitrified low-activity waste and simulants in a laboratory-scale melter",
+    "year": 2022,
+    "theta": 0.853
+   },
+   {
+    "title": "The Effect of Recycled Waste Glass as a Coarse Aggregate on the Properties of Portland Cement Concre",
+    "year": 2023,
+    "theta": 0.796
+   },
+   {
+    "title": "DuraLith geopolymer waste form for Hanford secondary waste: Correlating setting behavior to hydratio",
+    "year": 2014,
+    "theta": 0.78
+   }
+  ],
+  "4": [
+   {
+    "title": "Comparison of the Behavior of Technetium and Rhenium in Low Activity Waste Glass Formulations Subjec",
+    "year": 2010,
+    "theta": 0.795
+   },
+   {
+    "title": "The evolution of hydrated lime-based cementitious waste forms during leach testing leading to enhanc",
+    "year": 2022,
+    "theta": 0.777
+   },
+   {
+    "title": "Neutral Salt Activated Slag for Solidification and Stabilization of Hanford Effluent Treatment Facil",
+    "year": 2025,
+    "theta": 0.715
+   },
+   {
+    "title": "Application of Metakaolin-slag Binders to Solidify Rad-waste Glass Sharps: Leaching of 137Cs and 152",
+    "year": 2019,
+    "theta": 0.71
+   }
+  ],
+  "5": [
+   {
+    "title": "LAW Melter Offgas System Design Basis Flowsheets (11/15/2019)",
+    "year": 2019,
+    "theta": 0.939
+   },
+   {
+    "title": "Development of equipments for remote dismantling of joule heated ceramic melter",
+    "year": 2011,
+    "theta": 0.729
+   },
+   {
+    "title": "TECHNOLOGY MATURATION PLAN FOR ALUMINUM REMOVAL AND SODIUM HYDROXIDE REGENERATION FROM HANFORD WASTE",
+    "year": 2011,
+    "theta": 0.726
+   },
+   {
+    "title": "Remote start-up of Joule Heated Ceramic Melter \u2013 optimization of design parameters based on experime",
+    "year": 2019,
+    "theta": 0.606
+   }
+  ],
+  "6": [
+   {
+    "title": "PERFORMANCE OF VAPOR CORROSION INHIBITORS FOR LOCALIZED CORROSION MITIGATION OF DOUBLE SHELL STORAGE",
+    "year": 2020,
+    "theta": 0.887
+   },
+   {
+    "title": "Retraction Note: Effects of waste glass and waste marble on mechanical and durability performance of",
+    "year": 2023,
+    "theta": 0.873
+   },
+   {
+    "title": "Natrophosphate and kogarkoite precipitated from alkaline nuclear waste at Hanford",
+    "year": 2019,
+    "theta": 0.827
+   },
+   {
+    "title": "Stress Corrosion Cracking of Carbon Steel in Nitrate-Based Hanford Waste Simulant Environments",
+    "year": 2014,
+    "theta": 0.822
+   }
+  ],
+  "7": [
+   {
+    "title": "A low cost route for fabrication of wollastonite glass\u2013ceramics directly using soda-lime waste glass",
+    "year": 2013,
+    "theta": 0.945
+   },
+   {
+    "title": "Durability studies of simulated UK high level waste glass",
+    "year": 2014,
+    "theta": 0.914
+   },
+   {
+    "title": "The role of waste glass powder in alkali-silica reaction mitigation: Transforming glasscrete durabil",
+    "year": 2025,
+    "theta": 0.905
+   },
+   {
+    "title": "The effect of high-level waste glass composition on spinel liquidus temperature",
+    "year": 2014,
+    "theta": 0.852
+   }
+  ],
+  "8": [
+   {
+    "title": "Analysis of Air-Purifying Respirator (APR) and Powered Air-Purifying Respirator (PAPR) Cartridge Per",
+    "year": 2020,
+    "theta": 0.885
+   },
+   {
+    "title": "Analysis of Respirator Cartridge Performance Testing on the 702-AZ Primary Exhauster for the Hanford",
+    "year": 2020,
+    "theta": 0.88
+   },
+   {
+    "title": "Analysis of Air-Purifying Respirator (APR) Cartridge Performance Testing on Hanford Tanks SX-101 and",
+    "year": 2020,
+    "theta": 0.871
+   },
+   {
+    "title": "Analysis of Respirator Cartridge Performance Testing on the 702-AZ Primary Exhauster for the Hanford",
+    "year": 2020,
+    "theta": 0.871
+   }
+  ],
+  "9": [
+   {
+    "title": "Alteration of 29Si-doped SON68 borosilicate nuclear waste glass in the presence of near field materi",
+    "year": 2019,
+    "theta": 0.989
+   },
+   {
+    "title": "Formation of Iron Phosphate Based Glass-ceramics for Nuclear Waste Immobilization by Microwave Sinte",
+    "year": 2025,
+    "theta": 0.975
+   },
+   {
+    "title": "Tc and Re behavior in borosilicate waste glass vapor hydration tests II",
+    "year": 2012,
+    "theta": 0.923
+   },
+   {
+    "title": "Borosilicate Glass-Ceramics Containing Zirconolite and Powellite for RE- and Mo-Rich Nuclear Waste I",
+    "year": 2021,
+    "theta": 0.912
+   }
+  ],
+  "10": [
+   {
+    "title": "Alkali Leaching Properties of Waste Glass-Based Geopolymers",
+    "year": 2018,
+    "theta": 0.859
+   },
+   {
+    "title": "The Component Slope Linear Model for Calculating Intensive Partial Molar Properties: Application to ",
+    "year": 2013,
+    "theta": 0.773
+   },
+   {
+    "title": "Metaheuristic\u2010based machine learning modeling of the compressive strength of concrete containing was",
+    "year": 2023,
+    "theta": 0.766
+   },
+   {
+    "title": "Characterizing the multivariable coupling in bond strength of waste glass powder reinforced concrete",
+    "year": 2026,
+    "theta": 0.76
+   }
+  ],
+  "11": [
+   {
+    "title": "Interim glycol flowsheet reduction/oxidation (redox) model for the Defense Waste Processing Facility",
+    "year": 2016,
+    "theta": 0.95
+   },
+   {
+    "title": "Corrosion Testing of Monofrax K-3 Refractory in Defense Waste Processing Facility (DWPF) Alternate R",
+    "year": 2016,
+    "theta": 0.905
+   },
+   {
+    "title": "Nitric-glycolic flowsheet reduction/oxidation (redox) model for the defense waste processing facilit",
+    "year": 2017,
+    "theta": 0.892
+   },
+   {
+    "title": "HLW Melter Refractory Thermal Finite Element Analysis using ANSYS",
+    "year": 2026,
+    "theta": 0.892
+   }
+  ]
+ },
+ "top_terms": {
+  "0": [
+   "composite",
+   "contaminants",
+   "infrastructure",
+   "contaminated",
+   "assessment",
+   "powder",
+   "disposal",
+   "sustainable",
+   "alternatives",
+   "engineered"
+  ],
+  "1": [
+   "forms",
+   "radioactive",
+   "phosphate",
+   "technology",
+   "cementitious",
+   "evaluation",
+   "immobilization",
+   "research",
+   "wastes",
+   "transport"
+  ],
+  "2": [
+   "nuclear",
+   "high-level",
+   "cold",
+   "feed",
+   "vitrification",
+   "system",
+   "melter",
+   "glasses",
+   "tanks",
+   "systems"
+  ],
+  "3": [
+   "technetium",
+   "off-gas",
+   "effect",
+   "recycled",
+   "iodine",
+   "feed",
+   "silica",
+   "samples",
+   "leaching",
+   "material"
+  ],
+  "4": [
+   "cold",
+   "stone",
+   "cast",
+   "ccim",
+   "induction",
+   "compound",
+   "slag",
+   "nitrates",
+   "joule-heated",
+   "furnace"
+  ],
+  "5": [
+   "pilot",
+   "joule",
+   "simulation",
+   "duramelter",
+   "minimum",
+   "viscous",
+   "scale",
+   "recycling",
+   "foaming",
+   "operation"
+  ],
+  "6": [
+   "corrosion",
+   "concrete",
+   "steel",
+   "carbon",
+   "tanks",
+   "integrity",
+   "service",
+   "microstructural",
+   "vapors",
+   "stress"
+  ],
+  "7": [
+   "x-ray",
+   "phase",
+   "simulated",
+   "crystals",
+   "crystallization",
+   "composition",
+   "layer",
+   "viscosity",
+   "spinel",
+   "diffraction"
+  ],
+  "8": [
+   "tank",
+   "testing",
+   "northwest",
+   "national",
+   "pacific",
+   "river",
+   "protection",
+   "wrps",
+   "facility",
+   "laboratory"
+  ],
+  "9": [
+   "borosilicate",
+   "nuclear",
+   "formation",
+   "glasses",
+   "crystallization",
+   "forms",
+   "zeolite",
+   "loading",
+   "alteration",
+   "glass-ceramic"
+  ],
+  "10": [
+   "property",
+   "properties",
+   "statistical",
+   "database",
+   "durability",
+   "liquidus",
+   "measured",
+   "regression",
+   "error",
+   "consistency"
+  ],
+  "11": [
+   "dwpf",
+   "nuclear",
+   "processing",
+   "immobilization",
+   "flowsheet",
+   "savannah",
+   "radioactive",
+   "site",
+   "defense",
+   "corrosion"
+  ]
+ },
+ "growth": [
+  0.025078509002923965,
+  0.0016881972551345825,
+  -0.028924383223056793,
+  0.007488913834095001,
+  -0.014236822724342346,
+  -0.019791416823863983,
+  0.034468796104192734,
+  -0.004706092178821564,
+  -0.02301621437072754,
+  0.03576786071062088,
+  0.031495463103055954,
+  -0.04531281441450119
+ ]
+}
