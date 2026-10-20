@@ -1,0 +1,579 @@
+{
+ "labels": [
+  "solids/impacts/sodium",
+  "tank/analysis/solids",
+  "melter/system/simulants",
+  "monitoring/technetium/site",
+  "findings/slow/technique",
+  "storage/tanks/performance",
+  "melter/disposal/vitrification",
+  "pacific/testing/test",
+  "iodine/effluent/salt",
+  "operate/granular/fluidized",
+  "low-activity/immobilization/treatment",
+  "columbia/along/response"
+ ],
+ "coherence": [
+  0.0279483871325453,
+  -0.012005874583339748,
+  0.15643363380945247,
+  0.08471210736860907,
+  -0.23332201698721605,
+  0.10731285696705108,
+  0.13044175804263666,
+  0.26667719576806503,
+  0.11424812754267046,
+  0.452868751578949,
+  0.20887116851762005,
+  -0.12721932658061455
+ ],
+ "period_shares": {
+  "0": {
+   "2010-14": 0.06886018812656403,
+   "2015-19": 0.08333927392959595,
+   "2020-26": 0.0994720309972763
+  },
+  "1": {
+   "2010-14": 0.09055057168006897,
+   "2015-19": 0.09386191517114639,
+   "2020-26": 0.11214713752269745
+  },
+  "2": {
+   "2010-14": 0.091895192861557,
+   "2015-19": 0.08508963882923126,
+   "2020-26": 0.08900454640388489
+  },
+  "3": {
+   "2010-14": 0.09199263155460358,
+   "2015-19": 0.08773453533649445,
+   "2020-26": 0.07469844073057175
+  },
+  "4": {
+   "2010-14": 0.058491431176662445,
+   "2015-19": 0.05719268321990967,
+   "2020-26": 0.057863153517246246
+  },
+  "5": {
+   "2010-14": 0.06748221069574356,
+   "2015-19": 0.08756676316261292,
+   "2020-26": 0.10785568505525589
+  },
+  "6": {
+   "2010-14": 0.0970849096775055,
+   "2015-19": 0.11083918809890747,
+   "2020-26": 0.06467000395059586
+  },
+  "7": {
+   "2010-14": 0.09786346554756165,
+   "2015-19": 0.11740253865718842,
+   "2020-26": 0.10862147063016891
+  },
+  "8": {
+   "2010-14": 0.10137251019477844,
+   "2015-19": 0.08951515704393387,
+   "2020-26": 0.07859670370817184
+  },
+  "9": {
+   "2010-14": 0.06368868798017502,
+   "2015-19": 0.05201338976621628,
+   "2020-26": 0.05029494687914848
+  },
+  "10": {
+   "2010-14": 0.10583612322807312,
+   "2015-19": 0.0770975798368454,
+   "2020-26": 0.09362266212701797
+  },
+  "11": {
+   "2010-14": 0.0648820772767067,
+   "2015-19": 0.05834734067320824,
+   "2020-26": 0.0631532371044159
+  }
+ },
+ "exemplars": {
+  "0": [
+   {
+    "title": "Effect of Li, Fe, and B Addition on the Crystallization Behavior of Sodium Aluminosilicate Glasses as Analogue",
+    "year": 2016,
+    "theta": 0.98
+   },
+   {
+    "title": "Halide, Chromate, and Phosphate Impacts on LAW Glass for Dynamic Flowsheet 24590-WTP-MCR-PET-09-0037, Rev. 1",
+    "year": 2010,
+    "theta": 0.979
+   },
+   {
+    "title": "Chemical Equilibrium of Aluminate in Hanford Tank Waste Originating from Tanks 241-AN-105 and 241-AP-108",
+    "year": 2015,
+    "theta": 0.885
+   },
+   {
+    "title": "Incorporation of trace metals in Hanford waste boehmite mineral phases and dissolution rate impacts",
+    "year": 2024,
+    "theta": 0.881
+   },
+   {
+    "title": "Interaction of fluoride and phosphate in aluminoborosilicate Hanford site direct-feed high level waste glasses",
+    "year": 2026,
+    "theta": 0.655
+   }
+  ],
+  "1": [
+   {
+    "title": "Automated SEM analysis of particles in Hanford tank waste",
+    "year": 2024,
+    "theta": 0.868
+   },
+   {
+    "title": "Technology Evaluation for Conditioning of Hanford Tank Waste using Solids Segregation and Size Reduction",
+    "year": 2014,
+    "theta": 0.819
+   },
+   {
+    "title": "Annual Summary Report (FY 2025) Composite Analysis for Low-Level Waste Disposal in the Central Plateau of the ",
+    "year": 2026,
+    "theta": 0.746
+   },
+   {
+    "title": "Glass fabrication and analysis literature review and method selection for WTP waste feed qualification",
+    "year": 2013,
+    "theta": 0.658
+   },
+   {
+    "title": "Hanford Tank Waste to WIPP - Maximizing the Value of our National Repository Asset",
+    "year": 2013,
+    "theta": 0.655
+   }
+  ],
+  "2": [
+   {
+    "title": "Project Overview for the Pretreatment of HLW by an Electrochemical Denitration and Caustic Generation (EDCGe) ",
+    "year": 2025,
+    "theta": 0.875
+   },
+   {
+    "title": "Investigation of the Effects of Residual Peroxide on Localized Corrosion Susceptibility of Stainless Steel Equ",
+    "year": 2023,
+    "theta": 0.68
+   },
+   {
+    "title": "Evaluation of Immobilizing Secondary Waste from a Proposed Treatment Process for Hanford WTP LAW Melter Conden",
+    "year": 2018,
+    "theta": 0.66
+   },
+   {
+    "title": "Determining the Efficiency of Nitrogen Blanketing to Mitigate Corrosion in Hanford\u2019s Transfer Line System",
+    "year": 2026,
+    "theta": 0.626
+   },
+   {
+    "title": "An as Low as Reasonably Achievable J Cost Benefit (Optimization) Analysis for the Shield Design Criterion at t",
+    "year": 2025,
+    "theta": 0.615
+   }
+  ],
+  "3": [
+   {
+    "title": "Evaluation of Hanford Tank Supernatant Availability for Technetium Management Project Studies in FY16",
+    "year": 2015,
+    "theta": 0.748
+   },
+   {
+    "title": "Long-Term Performance of Ag/AgCl Reference Electrodes for Corrosion Potential Monitoring in Radioactive Tank W",
+    "year": 2024,
+    "theta": 0.663
+   },
+   {
+    "title": "Chemical and Radiation Effects from Hanford Tank Waste on Long-term Performance of Ag/AgCl Reference Electrode",
+    "year": 2026,
+    "theta": 0.634
+   },
+   {
+    "title": "Technetium Inventory, Distribution, and Speciation in Hanford Tanks",
+    "year": 2014,
+    "theta": 0.607
+   },
+   {
+    "title": "The Effect of Microbial Growth on the Spectral Induced Polarization Response in Hanford Vadose Zone Sediment i",
+    "year": 2018,
+    "theta": 0.591
+   }
+  ],
+  "4": [
+   {
+    "title": "Scanning Transmission Electron Microscopy of Plutonium Particles in Hanford Tanks 241-TX-118 and 241-SY-102",
+    "year": 2019,
+    "theta": 0.707
+   },
+   {
+    "title": "The Passive Film Evolution of Carbon Steel in Hanford Waste Simulants",
+    "year": 2018,
+    "theta": 0.567
+   },
+   {
+    "title": "Evidence for dawsonite in Hanford high-level nuclear waste tanks",
+    "year": 2012,
+    "theta": 0.561
+   },
+   {
+    "title": "When the Whistle Didn't Blow: The Politics of Organizational Dissent at the Hanford Nuclear Site",
+    "year": 2014,
+    "theta": 0.544
+   },
+   {
+    "title": "On the thermal and kinetic methods of nepheline precipitation within Hanford high-level nuclear waste canister",
+    "year": 2025,
+    "theta": 0.533
+   }
+  ],
+  "5": [
+   {
+    "title": "PERFORMANCE OF VAPOR CORROSION INHIBITORS ON MITIGATING CORROSION OF SECONDARY LINER IN DOUBLE SHELL STORAGE T",
+    "year": 2019,
+    "theta": 0.879
+   },
+   {
+    "title": "PERFORMANCE OF VAPOR CORROSION INHIBITORS FOR LOCALIZED CORROSION MITIGATION OF DOUBLE SHELL STORAGE TANKS AT ",
+    "year": 2020,
+    "theta": 0.871
+   },
+   {
+    "title": "Radiobiology of Select Radionuclides in Hanford Site Tank Waste",
+    "year": 2022,
+    "theta": 0.833
+   },
+   {
+    "title": "Stabilization of Spherical Rescorcinol Resin in Grout- Maintenance of the Hanford Integrated Disposal Performa",
+    "year": 2018,
+    "theta": 0.825
+   },
+   {
+    "title": "Integrity Monitoring and Assessment, Prediction, Repair, and Corrosion Control of the Hanford Storage Tanks \u2014 ",
+    "year": 2025,
+    "theta": 0.789
+   }
+  ],
+  "6": [
+   {
+    "title": "Melting Hanford LAW into Iron-Phosphate Glass in a CCIM",
+    "year": 2011,
+    "theta": 0.819
+   },
+   {
+    "title": "Regulatory Spike Testing of RPP-WTP LAW and HLW Glasses for Compliance with Land Disposal Restrictions, VSL-03",
+    "year": 2024,
+    "theta": 0.763
+   },
+   {
+    "title": "Regulatory Testing of WTP HL W Glasses for Compliance with Delisting Requirements, VSL-03R3780-1, Rev. 1",
+    "year": 2024,
+    "theta": 0.706
+   },
+   {
+    "title": "Solid-liquid Separation Testing for the Remediation of Hanford Waste Treatment Plant Low Activity Waste Melter",
+    "year": 2019,
+    "theta": 0.647
+   },
+   {
+    "title": "Assessment of Hexavalent Chromium Natural Attenuation for the Hanford Site 100 Area",
+    "year": 2015,
+    "theta": 0.647
+   }
+  ],
+  "7": [
+   {
+    "title": "Hanford Tank Farms Waste Feed Flow Loop Phase VI: PulseEcho System Performance Evaluation",
+    "year": 2012,
+    "theta": 0.848
+   },
+   {
+    "title": "A One System Integrated Approach to Simulant Selection for Hanford High Level Waste Mixing and Sampling Tests",
+    "year": 2013,
+    "theta": 0.775
+   },
+   {
+    "title": "Simulant Development for Hanford Tank Farms Double Valve Isolation (DVI) Valves Testing",
+    "year": 2013,
+    "theta": 0.772
+   },
+   {
+    "title": "Enhanced Hanford Low-Activity Waste Glass Property Data Development: Phase 1",
+    "year": 2017,
+    "theta": 0.711
+   },
+   {
+    "title": "Characterization of Hanford LAW phase 3 glasses. Revision 2",
+    "year": 2020,
+    "theta": 0.674
+   }
+  ],
+  "8": [
+   {
+    "title": "Hanford's Simulated Low Activity Waste Cast Stone Processing",
+    "year": 2013,
+    "theta": 0.809
+   },
+   {
+    "title": "TECHNOLOGY MATURATION PLAN FOR ALUMINUM REMOVAL AND SODIUM HYDROXIDE REGENERATION FROM HANFORD WASTE BY LITHIU",
+    "year": 2011,
+    "theta": 0.734
+   },
+   {
+    "title": "Evaluation of Pozzolan-substituted Cast Stone for Pretreated Hanford Tank Waste",
+    "year": 2025,
+    "theta": 0.706
+   },
+   {
+    "title": "Evaluation of Ammonium and Iodine Decontamination Factors for Hanford's Waste Treatment and Immobilization Pla",
+    "year": 2021,
+    "theta": 0.677
+   },
+   {
+    "title": "Iodine Distribution During Evaporation of Hanford Waste Treatment Plant Direct Feed Low Activity Waste Effluen",
+    "year": 2019,
+    "theta": 0.671
+   }
+  ],
+  "9": [
+   {
+    "title": "Radioactive Demonstrations Of Fluidized Bed Steam Reforming (FBSR) With Hanford Low Activity Wastes",
+    "year": 2012,
+    "theta": 0.559
+   },
+   {
+    "title": "NDE Technology Engineering Program for Hanford DST Non-Visual Volumetric Inspection Technology: Phase II RAVIS",
+    "year": 2020,
+    "theta": 0.523
+   },
+   {
+    "title": "Prototype hanford barrier 1994 to 2015",
+    "year": 2016,
+    "theta": 0.48
+   },
+   {
+    "title": "Performance Assessment of the Active Trenches in 200 East and 200 West Low-Level Burial Grounds at the Hanford",
+    "year": 2023,
+    "theta": 0.415
+   },
+   {
+    "title": "Tracking the Key Constituents of Concern of the WTP LAW Stream",
+    "year": 2017,
+    "theta": 0.388
+   }
+  ],
+  "10": [
+   {
+    "title": "Effective decontamination of 99TcO4\u2212/ReO4\u2212 from Hanford low-activity waste by functionalized graphene oxide\u2013ch",
+    "year": 2020,
+    "theta": 0.954
+   },
+   {
+    "title": "Radioactive Bench-scale Steam Reformer Demonstration of a Monolithic Steam Reformed Mineralized Waste Form for",
+    "year": 2012,
+    "theta": 0.76
+   },
+   {
+    "title": "FY25 Organic Evaporation Testing in Support of Hanford Sample-and-Send",
+    "year": 2025,
+    "theta": 0.7
+   },
+   {
+    "title": "Panel Session 98B: Treatment of Low-Activity Tank Waste at Hanford: Considering the Alternatives",
+    "year": 2020,
+    "theta": 0.66
+   },
+   {
+    "title": "Formation of Technetium Salts in Hanford Low\u2010Activity Waste Glass",
+    "year": 2016,
+    "theta": 0.651
+   }
+  ],
+  "11": [
+   {
+    "title": "Development of Nepheline Models for Hanford HLW Glass",
+    "year": 2016,
+    "theta": 0.724
+   },
+   {
+    "title": "Effects of pore-scale physics on uranium geochemistry in Hanford sediments",
+    "year": 2013,
+    "theta": 0.639
+   },
+   {
+    "title": "Current Understanding and Modeling of The Aging of Cementitious Waste Forms -- A Hanford Site Perspective",
+    "year": 2024,
+    "theta": 0.623
+   },
+   {
+    "title": "Analysis of Hanford-based Options for Sustainable DOE Facilities on the West Coast",
+    "year": 2012,
+    "theta": 0.585
+   },
+   {
+    "title": "The Hanford waste feed delivery operational research model",
+    "year": 2011,
+    "theta": 0.539
+   }
+  ]
+ },
+ "top_terms": {
+  "0": [
+   "solids",
+   "impacts",
+   "sodium",
+   "glasses",
+   "precipitation",
+   "found",
+   "dissolution",
+   "concentrations",
+   "constraints",
+   "uranium"
+  ],
+  "1": [
+   "tank",
+   "analysis",
+   "solids",
+   "composite",
+   "evaluation",
+   "national",
+   "feed",
+   "wastes",
+   "particles",
+   "technologies"
+  ],
+  "2": [
+   "melter",
+   "system",
+   "simulants",
+   "vitrification",
+   "feed",
+   "nuclear",
+   "processing",
+   "production",
+   "treatment",
+   "process"
+  ],
+  "3": [
+   "monitoring",
+   "technetium",
+   "site",
+   "tank",
+   "liquid",
+   "year",
+   "tanks",
+   "supernatant",
+   "speciation",
+   "solid"
+  ],
+  "4": [
+   "findings",
+   "slow",
+   "technique",
+   "nepheline",
+   "nuclear",
+   "values",
+   "showed",
+   "saturated",
+   "mixtures",
+   "indicated"
+  ],
+  "5": [
+   "storage",
+   "tanks",
+   "performance",
+   "potential",
+   "assessment",
+   "disposal",
+   "farm",
+   "volume",
+   "site",
+   "corrosion"
+  ],
+  "6": [
+   "melter",
+   "disposal",
+   "vitrification",
+   "site",
+   "glasses",
+   "disposed",
+   "forms",
+   "facility",
+   "stream",
+   "ihlw"
+  ],
+  "7": [
+   "pacific",
+   "testing",
+   "test",
+   "northwest",
+   "tests",
+   "data",
+   "laboratory",
+   "national",
+   "performance",
+   "farms"
+  ],
+  "8": [
+   "iodine",
+   "effluent",
+   "salt",
+   "technology",
+   "river",
+   "laboratory",
+   "solution",
+   "species",
+   "evaluate",
+   "savannah"
+  ],
+  "9": [
+   "operate",
+   "granular",
+   "fluidized",
+   "recycle",
+   "radiation",
+   "fbsr",
+   "steam",
+   "reforming",
+   "ceramic",
+   "durable"
+  ],
+  "10": [
+   "low-activity",
+   "immobilization",
+   "treatment",
+   "plant",
+   "product",
+   "tank",
+   "non-radioactive",
+   "evaporation",
+   "secondary",
+   "form"
+  ],
+  "11": [
+   "columbia",
+   "along",
+   "response",
+   "providing",
+   "natural",
+   "area",
+   "science",
+   "goals",
+   "west",
+   "modeling"
+  ]
+ },
+ "n_docs": 441,
+ "growth": [
+  0.03061184287071228,
+  0.02159656584262848,
+  -0.002890646457672119,
+  -0.01729419082403183,
+  -0.0006282776594161987,
+  0.04037347435951233,
+  -0.03241490572690964,
+  0.01075800508260727,
+  -0.022775806486606598,
+  -0.013393741101026535,
+  -0.012213461101055145,
+  -0.001728840172290802
+ ]
+}

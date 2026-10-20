@@ -199,6 +199,21 @@ html = html.replace("<script>\n", "<script>\nwindow.__MODDOE__ = " + json.dumps(
 html = html.replace("document.querySelectorAll('.trow').forEach(el =>",
                     "document.querySelectorAll('.mrow').forEach(el =>\n    el.onclick = () => { const r = document.getElementById('md'+el.dataset.k); r.style.display = r.style.display==='none'?'':'none'; });\n  document.querySelectorAll('.trow').forEach(el =>")
 
+
+# --- post-inject "Hanford strict" tab (added 2026-10-19, run 2) ---
+ma_h = json.load(open(os.path.join(NN, "modern_hanford_analysis.json")))
+payload_h = {"labels": ma_h["labels"], "coherence": ma_h["coherence"],
+             "period_shares": ma_h["period_shares"], "growth": ma_h["growth"],
+             "top_terms": ma_h["top_terms"], "exemplars": ma_h["exemplars"],
+             "n_docs": ma_h["n_docs"]}
+html = html.replace("['moddoe','Modern era (DOE)']",
+                    "['moddoe','Modern era (DOE)'],['hanford','Hanford strict']")
+renderer_h = open(os.path.join(WS, "scripts", "nn", "_hanford_renderer.js")).read()
+html = html.replace("function render() {", renderer_h + "\nfunction render() {")
+html = html.replace("else if (view === 'moddoe') app.innerHTML = tabs() + modernDOE();",
+                    "else if (view === 'moddoe') app.innerHTML = tabs() + modernDOE();\n  else if (view === 'hanford') app.innerHTML = tabs() + strictHanford();")
+html = html.replace("<script>\n", "<script>\nwindow.__HANFORD__ = " + json.dumps(payload_h, ensure_ascii=False) + ";\n")
+
 out = os.path.join(WS, "ui", "topic_map.html")
 os.makedirs(os.path.dirname(out), exist_ok=True)
 open(out, "w").write(html)
