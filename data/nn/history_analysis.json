@@ -1,0 +1,1939 @@
+{
+ "suffix": "30",
+ "n_docs": 6719,
+ "labels": [
+  "doping/mortars/conductivity",
+  "plutonium/fixation/release",
+  "iron/sludges/plant",
+  "safety/assessment/hwvp",
+  "analysis/plant/characterization",
+  "groundwater/site/monitoring",
+  "polyethylene/polypropylene/dynamic",
+  "srnl/low-activity/simulant",
+  "transport/alkaline/geochemical",
+  "evolution/iron/effect",
+  "investigation/sludge/aluminosilicate",
+  "stone/normalized/cast",
+  "learning/units/machine",
+  "spinel/crystals/poured",
+  "systems/retention/solutions",
+  "ceramic/cold-cap/rare",
+  "ineel/next/aluminum",
+  "glass-ceramics/simulation/solid",
+  "salt/flux/shear",
+  "salts/melts/melt",
+  "effluents/sulfur/oxidized",
+  "solids/iodine/noble",
+  "innovation/extraction/routes",
+  "washington/dissolution/pacific",
+  "corrosion/stainless/coupons",
+  "cementitious/workability/sand",
+  "volumetric/cells/height",
+  "acid/nitric/leaching",
+  "borosilicate/structure/form",
+  "crystal/leaching/viscosity"
+ ],
+ "coherence": [
+  -0.44586501457126715,
+  -0.07997915939135702,
+  0.06561355233909898,
+  0.03553145967335258,
+  0.06336669320783238,
+  -0.14168602537700828,
+  -0.01453154378231508,
+  0.1487961267363583,
+  0.021524665868868902,
+  0.09088323473818212,
+  0.03864139382685981,
+  -0.11229425648053072,
+  -0.038357075260290724,
+  0.15095336308767526,
+  0.07901983037158228,
+  -0.16569289130455836,
+  -0.08312971067160131,
+  0.03873252293860057,
+  -0.5226040154276231,
+  0.08970810751325203,
+  -0.04444520467825601,
+  -0.03660422478662631,
+  0.11466851154272667,
+  0.0837225247479969,
+  -0.024323150349162756,
+  -0.06650729180681748,
+  -0.10152300805619999,
+  -0.0294955562394487,
+  0.09236734048053082,
+  0.042058341448009594
+ ],
+ "overall_share": [
+  0.03196263313293457,
+  0.02968480810523033,
+  0.0355117991566658,
+  0.03594842180609703,
+  0.03216338902711868,
+  0.03333915024995804,
+  0.03457934409379959,
+  0.03245494142174721,
+  0.029685737565159798,
+  0.036899518221616745,
+  0.03276600316166878,
+  0.03337033465504646,
+  0.03262050822377205,
+  0.036115650087594986,
+  0.03218556195497513,
+  0.030146313831210136,
+  0.029649727046489716,
+  0.03331508859992027,
+  0.03453874588012695,
+  0.03499750792980194,
+  0.03449002653360367,
+  0.032705243676900864,
+  0.03558073565363884,
+  0.03516542166471481,
+  0.03286341205239296,
+  0.033929381519556046,
+  0.03082488477230072,
+  0.03463723883032799,
+  0.03461023420095444,
+  0.03325847536325455
+ ],
+ "decade_shares": {
+  "1940": [
+   0.0016025137156248093,
+   0.006641804706305265,
+   0.1674792766571045,
+   0.002966403029859066,
+   0.015510753728449345,
+   0.016199396923184395,
+   0.017731700092554092,
+   0.003913162276148796,
+   0.03900155425071716,
+   0.000906465167645365,
+   0.013089247047901154,
+   0.033919695764780045,
+   0.07459010928869247,
+   0.05969163775444031,
+   0.10461235046386719,
+   0.057479143142700195,
+   0.0039746519178152084,
+   0.021820737048983574,
+   0.025693098083138466,
+   0.018443599343299866,
+   0.029551753774285316,
+   0.009311982430517673,
+   0.0230704452842474,
+   0.017561038956046104,
+   0.02900904417037964,
+   0.07712434977293015,
+   0.08828631788492203,
+   0.03531217947602272,
+   0.002387810032814741,
+   0.0031177857890725136
+  ],
+  "1950": [
+   0.006393711548298597,
+   0.02444588765501976,
+   0.06187178194522858,
+   0.017182638868689537,
+   0.07467273622751236,
+   0.05145604908466339,
+   0.015470925718545914,
+   0.00512756546959281,
+   0.030058562755584717,
+   0.01316580269485712,
+   0.04131542146205902,
+   0.00967184454202652,
+   0.03824111446738243,
+   0.023819539695978165,
+   0.02139984630048275,
+   0.011120475828647614,
+   0.019949959591031075,
+   0.01920546032488346,
+   0.009974799118936062,
+   0.0329272598028183,
+   0.029531734064221382,
+   0.024026356637477875,
+   0.1017676517367363,
+   0.11728018522262573,
+   0.07668399810791016,
+   0.03818472847342491,
+   0.01956041343510151,
+   0.04512813687324524,
+   0.0104011045768857,
+   0.009964311495423317
+  ],
+  "1960": [
+   0.019917430356144905,
+   0.05525010824203491,
+   0.05234784260392189,
+   0.03332943096756935,
+   0.04390391707420349,
+   0.03240599110722542,
+   0.024212457239627838,
+   0.05118073150515556,
+   0.018109606578946114,
+   0.038928885012865067,
+   0.013822601176798344,
+   0.030146101489663124,
+   0.02325374446809292,
+   0.04567401111125946,
+   0.031099991872906685,
+   0.018596190959215164,
+   0.01634911075234413,
+   0.04205462336540222,
+   0.02843288518488407,
+   0.026045924052596092,
+   0.02721887081861496,
+   0.030845820903778076,
+   0.038847003132104874,
+   0.041547391563653946,
+   0.020108116790652275,
+   0.037919219583272934,
+   0.07003024965524673,
+   0.03977173939347267,
+   0.027189478278160095,
+   0.021460523828864098
+  ],
+  "1970": [
+   0.026350947096943855,
+   0.04311733320355415,
+   0.04381034895777702,
+   0.021915875375270844,
+   0.047610092908144,
+   0.03431660309433937,
+   0.023993544280529022,
+   0.027078334242105484,
+   0.024388466030359268,
+   0.026492014527320862,
+   0.04132365435361862,
+   0.052017323672771454,
+   0.019495369866490364,
+   0.04226575419306755,
+   0.02923368290066719,
+   0.027278808876872063,
+   0.01852944865822792,
+   0.03773723542690277,
+   0.01845070905983448,
+   0.026633281260728836,
+   0.013663864694535732,
+   0.03404226899147034,
+   0.04923826456069946,
+   0.03471437841653824,
+   0.023964542895555496,
+   0.04703787714242935,
+   0.04660097509622574,
+   0.05901573225855827,
+   0.041437938809394836,
+   0.018245302140712738
+  ],
+  "1980": [
+   0.024341100826859474,
+   0.04261067509651184,
+   0.040808193385601044,
+   0.029176291078329086,
+   0.03117804229259491,
+   0.029610078781843185,
+   0.020497091114521027,
+   0.03417040407657623,
+   0.02559102699160576,
+   0.0213116854429245,
+   0.030798431485891342,
+   0.046766530722379684,
+   0.03245381638407707,
+   0.03478751704096794,
+   0.029118362814188004,
+   0.0315190888941288,
+   0.014873787760734558,
+   0.03670904412865639,
+   0.019686618819832802,
+   0.025966867804527283,
+   0.01912180706858635,
+   0.03591739758849144,
+   0.034488745033741,
+   0.049438849091529846,
+   0.0349540114402771,
+   0.04630959406495094,
+   0.033122021704912186,
+   0.05701405182480812,
+   0.06097548454999924,
+   0.026683427393436432
+  ],
+  "1990": [
+   0.028629116714000702,
+   0.031655892729759216,
+   0.04268857091665268,
+   0.05226405709981918,
+   0.03178166598081589,
+   0.03767502307891846,
+   0.024347800761461258,
+   0.03874650225043297,
+   0.028613073751330376,
+   0.025452859699726105,
+   0.027529262006282806,
+   0.042132336646318436,
+   0.032240577042102814,
+   0.045248474925756454,
+   0.023734409362077713,
+   0.02247629128396511,
+   0.0195974949747324,
+   0.03574860468506813,
+   0.02563881129026413,
+   0.04453469067811966,
+   0.02511620707809925,
+   0.04835020378232002,
+   0.038269754499197006,
+   0.04297869652509689,
+   0.028342658653855324,
+   0.0310561191290617,
+   0.027227528393268585,
+   0.03610344976186752,
+   0.03865902125835419,
+   0.02316078171133995
+  ],
+  "2000": [
+   0.02608678676187992,
+   0.023209260776638985,
+   0.0352400541305542,
+   0.04225838556885719,
+   0.03618751838803291,
+   0.03340519964694977,
+   0.02685922011733055,
+   0.03998452052474022,
+   0.033012788742780685,
+   0.030127936974167824,
+   0.028647910803556442,
+   0.03682420775294304,
+   0.03695283457636833,
+   0.049116168171167374,
+   0.027892334386706352,
+   0.020255906507372856,
+   0.03160353749990463,
+   0.041576337069272995,
+   0.03167343512177467,
+   0.03916746750473976,
+   0.03020191751420498,
+   0.03821754828095436,
+   0.033713407814502716,
+   0.046350859105587006,
+   0.02986842766404152,
+   0.025710372254252434,
+   0.03147871792316437,
+   0.033921096473932266,
+   0.02945072390139103,
+   0.031004970893263817
+  ],
+  "2010": [
+   0.02866292931139469,
+   0.02786974608898163,
+   0.0346536710858345,
+   0.029367797076702118,
+   0.03225468099117279,
+   0.031165635213255882,
+   0.03375127911567688,
+   0.03729784116148949,
+   0.029251737520098686,
+   0.04274845868349075,
+   0.03074263222515583,
+   0.032585259526968,
+   0.03247943893074989,
+   0.037787627428770065,
+   0.03340732678771019,
+   0.028901664540171623,
+   0.02798619493842125,
+   0.03343730792403221,
+   0.04084696248173714,
+   0.03857824578881264,
+   0.03839988633990288,
+   0.03235165402293205,
+   0.03434371575713158,
+   0.03658383712172508,
+   0.03341219201683998,
+   0.028920713812112808,
+   0.030335040763020515,
+   0.031346652656793594,
+   0.03570186719298363,
+   0.034827787429094315
+  ],
+  "2020": [
+   0.04033078998327255,
+   0.029283948242664337,
+   0.03130070120096207,
+   0.034071553498506546,
+   0.029476283118128777,
+   0.03378642722964287,
+   0.04605381190776825,
+   0.0234505757689476,
+   0.030264837667346,
+   0.043878789991140366,
+   0.03805328533053398,
+   0.025650694966316223,
+   0.03177517652511597,
+   0.025653734803199768,
+   0.03710182011127472,
+   0.0382307767868042,
+   0.03775686398148537,
+   0.027745945379137993,
+   0.03864799067378044,
+   0.029218699783086777,
+   0.0414094403386116,
+   0.023988356813788414,
+   0.035139236599206924,
+   0.023052722215652466,
+   0.035496946424245834,
+   0.03878683224320412,
+   0.030528055503964424,
+   0.030958905816078186,
+   0.029364123940467834,
+   0.03954268619418144
+  ]
+ },
+ "docs_per_decade": {
+  "1940": 6,
+  "1950": 17,
+  "1960": 24,
+  "1970": 141,
+  "1980": 456,
+  "1990": 940,
+  "2000": 1007,
+  "2010": 1728,
+  "2020": 2392
+ },
+ "emergence": {
+  "0": null,
+  "1": "1960",
+  "2": "1940",
+  "3": null,
+  "4": "1950",
+  "5": "1950",
+  "6": null,
+  "7": null,
+  "8": null,
+  "9": null,
+  "10": null,
+  "11": "1970",
+  "12": null,
+  "13": null,
+  "14": null,
+  "15": null,
+  "16": null,
+  "17": null,
+  "18": null,
+  "19": null,
+  "20": null,
+  "21": null,
+  "22": "1950",
+  "23": "1950",
+  "24": null,
+  "25": "1940",
+  "26": "1960",
+  "27": "1970",
+  "28": null,
+  "29": null
+ },
+ "slopes": {
+  "0": 0.00394,
+  "1": 0.00042,
+  "2": -0.01103,
+  "3": 0.00349,
+  "4": -0.00171,
+  "5": 0.00025,
+  "6": 0.0029,
+  "7": 0.00273,
+  "8": -6e-05,
+  "9": 0.00403,
+  "10": 0.0014,
+  "11": 0.00065,
+  "12": -0.00247,
+  "13": -0.00141,
+  "14": -0.0041,
+  "15": -0.00042,
+  "16": 0.00318,
+  "17": 0.00106,
+  "18": 0.00264,
+  "19": 0.00174,
+  "20": 0.00152,
+  "21": 0.00188,
+  "22": -0.00292,
+  "23": -0.00337,
+  "24": -0.00133,
+  "25": -0.00369,
+  "26": -0.00492,
+  "27": -0.00156,
+  "28": 0.00309,
+  "29": 0.00407
+ },
+ "exemplars": {
+  "0": [
+   {
+    "title": "Performance and durability of octadecyltrichlorosilane coated borosilicate glass",
+    "year": 2007,
+    "relevance": "waste-glass-related",
+    "theta": 0.437
+   },
+   {
+    "title": "Melter performance during surrogate vitrification campaigns at the DOE/Industrial Center for Vitrification Res",
+    "year": 1995,
+    "relevance": "waste-glass-related",
+    "theta": 0.396
+   },
+   {
+    "title": "1976 Hanford americium-exposure incident: accident description",
+    "year": 1982,
+    "relevance": "hanford-adjacent",
+    "theta": 0.396
+   },
+   {
+    "title": "Doping of iron phosphate glasses with Al2O3, SiO2 or B2O3 for improved thermal stability",
+    "year": 2006,
+    "relevance": "waste-glass-related",
+    "theta": 0.385
+   },
+   {
+    "title": "Meta-study on the effect of P2O5 on single phase slag viscosity and the effect of P2O5 induced liquid phase im",
+    "year": 2021,
+    "relevance": "waste-glass-related",
+    "theta": 0.377
+   }
+  ],
+  "1": [
+   {
+    "title": "The effects of crystal structure on the chemical durability of yttrium disilicate",
+    "year": 2024,
+    "relevance": "waste-glass-related",
+    "theta": 0.464
+   },
+   {
+    "title": "Preventing Glass Alteration in Museum Objects using ALD Deposited Amorphous Alumina Coatings",
+    "year": 2020,
+    "relevance": "waste-glass-related",
+    "theta": 0.435
+   },
+   {
+    "title": "Nepheline rock dust pneumoconiosis. A report of 2 cases",
+    "year": 1982,
+    "relevance": "waste-glass-related",
+    "theta": 0.4
+   },
+   {
+    "title": "Advances in Glass Science and Technology",
+    "year": 2018,
+    "relevance": "waste-glass-related",
+    "theta": 0.388
+   },
+   {
+    "title": "OPTIMIZING CONTAINER LOCATION FOR SELECTIVE COLLECTION OF URBAN SOLID WASTE",
+    "year": 2018,
+    "relevance": "waste-glass-related",
+    "theta": 0.374
+   }
+  ],
+  "2": [
+   {
+    "title": "The influence of some transition metal ions in lead- and calcium-phosphate glasses",
+    "year": 2012,
+    "relevance": "waste-glass-related",
+    "theta": 0.747
+   },
+   {
+    "title": "Thermal Stability Studies of Candidate Decontamination Agents for Hanford?s Plutonium Finishing Plant Plutoniu",
+    "year": 2005,
+    "relevance": "hanford-adjacent",
+    "theta": 0.721
+   },
+   {
+    "title": "Micro\u2010hardness and gamma\u2010ray attenuation properties of lead iron phosphate glasses",
+    "year": 2021,
+    "relevance": "waste-glass-related",
+    "theta": 0.717
+   },
+   {
+    "title": "Book Review: Hanford site historic district. History of the plutonium production facilities 1943-1990, Hanford",
+    "year": 2004,
+    "relevance": "hanford-adjacent",
+    "theta": 0.594
+   },
+   {
+    "title": "Examination and evaluation of iron phosphate glass composition aimed for high loading low radioactive waste li",
+    "year": 2017,
+    "relevance": "waste-glass-related",
+    "theta": 0.546
+   }
+  ],
+  "3": [
+   {
+    "title": "Evaluation of Concrete Property Data at Elevated Temperatures for Use in the Safe-Crack Computer Code",
+    "year": 1986,
+    "relevance": "hanford-adjacent",
+    "theta": 0.625
+   },
+   {
+    "title": "Documentation of Hanford Site independent review of the Hanford Waste Vitrification Plant Preliminary Safety A",
+    "year": 1991,
+    "relevance": "hanford-adjacent",
+    "theta": 0.609
+   },
+   {
+    "title": "Sludge Batch 3 Phase 1 Variability Study",
+    "year": 2003,
+    "relevance": "waste-glass-related",
+    "theta": 0.577
+   },
+   {
+    "title": "The processing of Pu scrap at Hanford",
+    "year": 1961,
+    "relevance": "hanford-adjacent",
+    "theta": 0.535
+   },
+   {
+    "title": "The impact of safety analyses on the design of the Hanford Waste Vitrification Plant",
+    "year": 1993,
+    "relevance": "hanford-adjacent",
+    "theta": 0.53
+   }
+  ],
+  "4": [
+   {
+    "title": "Results from Analysis of a Hanford Tank 241-AN-102 Crucible-Scale Glass Waste Form",
+    "year": 2003,
+    "relevance": "hanford-adjacent",
+    "theta": 0.695
+   },
+   {
+    "title": "Thermal Capture and Prompt Capture Gamma Databases",
+    "year": 2023,
+    "relevance": "waste-glass-related",
+    "theta": 0.635
+   },
+   {
+    "title": "Foaming in Hanford River Protection Project Waste Treatment Plant LAW Evaporation Processes - FY01 Summary Rep",
+    "year": 2002,
+    "relevance": "hanford-adjacent",
+    "theta": 0.539
+   },
+   {
+    "title": "Results from Analysis of a Hanford Tank 241-AN-102 Melter-Scale Glass Waste Form",
+    "year": 2003,
+    "relevance": "core",
+    "theta": 0.512
+   },
+   {
+    "title": "Development of polyphase ceramics for the immobilization of high-level Defense nuclear waste",
+    "year": 1983,
+    "relevance": "core",
+    "theta": 0.463
+   }
+  ],
+  "5": [
+   {
+    "title": "Public Comments and Responses to the 1989 Hanford Cleanup Five-Year Plan",
+    "year": 1991,
+    "relevance": "hanford-adjacent",
+    "theta": 0.671
+   },
+   {
+    "title": "ChemInform Abstract: Durability of High\u2010Level Waste Glass in Groundwater",
+    "year": 1991,
+    "relevance": "waste-glass-related",
+    "theta": 0.591
+   },
+   {
+    "title": "Hanford Site Ecological Monitoring Report for Calendar Year 2017",
+    "year": 2018,
+    "relevance": "hanford-adjacent",
+    "theta": 0.526
+   },
+   {
+    "title": "Microbially mediated iron redox cycling of subsurface sediments from Hanford Site, Washington State, USA",
+    "year": 2020,
+    "relevance": "hanford-adjacent",
+    "theta": 0.518
+   },
+   {
+    "title": "Conversion and correction factors for historical measurements of Iodine-131 in Hanford-area vegetation, 1945--",
+    "year": 1993,
+    "relevance": "hanford-adjacent",
+    "theta": 0.512
+   }
+  ],
+  "6": [
+   {
+    "title": "Effect of SnO addition on optical absorption of bismuth borate glass and photocatalytic property of the crysta",
+    "year": 2008,
+    "relevance": "waste-glass-related",
+    "theta": 0.649
+   },
+   {
+    "title": "Experimental search for dynamic heterogeneities in molecular glass formers",
+    "year": 2007,
+    "relevance": "waste-glass-related",
+    "theta": 0.573
+   },
+   {
+    "title": "Oxide Shell Reduction and Magnetic Property Changes in Core-Shell Fe Nanoclusters under Ion Irradiation",
+    "year": 2014,
+    "relevance": "waste-glass-related",
+    "theta": 0.552
+   },
+   {
+    "title": "Ductile Glassy Polymer Networks Capable of Large Plastic Deformation and Heat-Induced Elastic Recovery",
+    "year": 2024,
+    "relevance": "waste-glass-related",
+    "theta": 0.503
+   },
+   {
+    "title": "Effects of Fe2O3 addition and annealing on the mechanical and dissolution properties of MgO-and CaO-containing",
+    "year": 2018,
+    "relevance": "waste-glass-related",
+    "theta": 0.463
+   }
+  ],
+  "7": [
+   {
+    "title": "BROOKHAVEN NATIONAL LABORATORY PROCESS FOR THE CONTINUOUS CONVERSION OF HIGH-LEVEL RADIOACTIVE WASTE TO PHOSPH",
+    "year": 1965,
+    "relevance": "waste-glass-related",
+    "theta": 0.641
+   },
+   {
+    "title": "Symmetry and variational methods in higher-dimensional theories: Errata and addendum",
+    "year": 1987,
+    "relevance": "waste-glass-related",
+    "theta": 0.568
+   },
+   {
+    "title": "Heat of Hydration of Low Activity Cementitious Waste Forms",
+    "year": 2015,
+    "relevance": "hanford-adjacent",
+    "theta": 0.563
+   },
+   {
+    "title": "Formulation and durability of metakaolin-based geopolymers",
+    "year": 2015,
+    "relevance": "waste-glass-related",
+    "theta": 0.431
+   },
+   {
+    "title": "Chemical durability and leaching mechanisms of simulated radioactive glass waste forms for the early stage",
+    "year": 2026,
+    "relevance": "waste-glass-related",
+    "theta": 0.419
+   }
+  ],
+  "8": [
+   {
+    "title": "Composite Analysis Vadose Zone Transport of Selected Hanford Site Composite Analysis: Vadose Zone Transport of",
+    "year": 2022,
+    "relevance": "hanford-adjacent",
+    "theta": 0.707
+   },
+   {
+    "title": "A newly proposed isotherm model to predict Cs exchange with crystalline silicotitanate in tank waste simulants",
+    "year": 2021,
+    "relevance": "hanford-adjacent",
+    "theta": 0.54
+   },
+   {
+    "title": "Transport properties of the square-well fluid from molecular dynamics simulation",
+    "year": 2024,
+    "relevance": "waste-glass-related",
+    "theta": 0.509
+   },
+   {
+    "title": "Hanford tank residual waste \u2013 Contaminant source terms and release models",
+    "year": 2011,
+    "relevance": "hanford-adjacent",
+    "theta": 0.49
+   },
+   {
+    "title": "Role of short range order on crystallization of tectosilicate glasses: A diffraction study",
+    "year": 2019,
+    "relevance": "waste-glass-related",
+    "theta": 0.43
+   }
+  ],
+  "9": [
+   {
+    "title": "Effect of surfaces on glass waste form leaching",
+    "year": 1982,
+    "relevance": "waste-glass-related",
+    "theta": 0.88
+   },
+   {
+    "title": "GASEOUS DIFFUSION MEMBRANE LEACHING WITH SELECT LIXIVIANTS: AMMONIUM CARBONATE, TRI- SODIUM PHOSPHATE AND AMMO",
+    "year": 2018,
+    "relevance": "waste-glass-related",
+    "theta": 0.733
+   },
+   {
+    "title": "Effect of crystallization behavior and phase evolution on glass-ceramics derived from alumina silicate solid w",
+    "year": 2025,
+    "relevance": "waste-glass-related",
+    "theta": 0.73
+   },
+   {
+    "title": "Formation of alteration products during dissolution of vitrified ILW in a high-pH calcium-rich solution",
+    "year": 2013,
+    "relevance": "waste-glass-related",
+    "theta": 0.703
+   },
+   {
+    "title": "Sulfate Separation from Hanford Waste Simulants by Selective Crystallization of Urea-Functionalized Capsules",
+    "year": 2012,
+    "relevance": "core",
+    "theta": 0.676
+   }
+  ],
+  "10": [
+   {
+    "title": "Microwave-assisted leaching of olivine: Investigation of leaching characteristics and kinetics of Mg, Si, Fe, ",
+    "year": 2025,
+    "relevance": "waste-glass-related",
+    "theta": 0.636
+   },
+   {
+    "title": "Effects of iron and typical heavy metals in non-ferrous smelting slag on the crystallization and properties of",
+    "year": 2026,
+    "relevance": "waste-glass-related",
+    "theta": 0.568
+   },
+   {
+    "title": "Investigation of Li2O and TiO2 effects on MAS glass-ceramic produced from waste material",
+    "year": 2023,
+    "relevance": "waste-glass-related",
+    "theta": 0.508
+   },
+   {
+    "title": "Investigation on the role of nitrogen in crystallization of Sb-rich phase change materials",
+    "year": 2009,
+    "relevance": "waste-glass-related",
+    "theta": 0.494
+   },
+   {
+    "title": "Thermal properties and crystallization of iron phosphate glasses containing up to 25 wt% additions of Si-, Al-",
+    "year": 2007,
+    "relevance": "waste-glass-related",
+    "theta": 0.434
+   }
+  ],
+  "11": [
+   {
+    "title": "Long-term product consistency test of simulated 90-19/Nd HLW glass",
+    "year": 2010,
+    "relevance": "waste-glass-related",
+    "theta": 0.657
+   },
+   {
+    "title": "Leaching of actinides and technetium from simulated high-level waste glass",
+    "year": 1979,
+    "relevance": "waste-glass-related",
+    "theta": 0.552
+   },
+   {
+    "title": "Durability evaluation of glasses to immobilize Fukushima (1F) secondary waste using ASTM C1220 (MCC-1) testing",
+    "year": 2023,
+    "relevance": "waste-glass-related",
+    "theta": 0.518
+   },
+   {
+    "title": "IRON-PHOSPHATE GLASS FOR IMMOBILIZATION OF RADIOACTIVE TECHNETIUM",
+    "year": 2012,
+    "relevance": "waste-glass-related",
+    "theta": 0.447
+   },
+   {
+    "title": "Leaching behavior of glass ceramic nuclear waste forms",
+    "year": 1981,
+    "relevance": "waste-glass-related",
+    "theta": 0.434
+   }
+  ],
+  "12": [
+   {
+    "title": "Evaluation of ecological resources at operating facilities at contaminated sites: The Department of Energy's H",
+    "year": 2019,
+    "relevance": "hanford-adjacent",
+    "theta": 0.516
+   },
+   {
+    "title": "Diesel fuel extender from animal waste",
+    "year": 2006,
+    "relevance": "waste-glass-related",
+    "theta": 0.469
+   },
+   {
+    "title": "Engineering Study for DWPF Bubblers, VSL-10R1770-1 (Final Report)",
+    "year": 2013,
+    "relevance": "waste-glass-related",
+    "theta": 0.449
+   },
+   {
+    "title": "Hanford Site Waste Management Units Report",
+    "year": 2013,
+    "relevance": "core",
+    "theta": 0.447
+   },
+   {
+    "title": "In situ pair distribution function analysis of crystallizing Fe-silicate melts",
+    "year": 2021,
+    "relevance": "waste-glass-related",
+    "theta": 0.446
+   }
+  ],
+  "13": [
+   {
+    "title": "EMPIRICAL MODEL FOR FORMULATION OF CRYSTAL-TOLERANT HLW GLASSES",
+    "year": 2012,
+    "relevance": "waste-glass-related",
+    "theta": 0.718
+   },
+   {
+    "title": "Mineralogy and origin of coarse-grained segregations in the pyrometallurgical Zn-Pb slags from Katowice-We\u0142now",
+    "year": 2016,
+    "relevance": "waste-glass-related",
+    "theta": 0.641
+   },
+   {
+    "title": "SETTLING OF SPINEL IN A HIGH-LEVEL WASTE GLASS MELTER",
+    "year": 2002,
+    "relevance": "waste-glass-related",
+    "theta": 0.568
+   },
+   {
+    "title": "Crystal-Tolerant Glass Approach For Mitigation Of Crystal Accumulation In Continuous Melters Processing Radioa",
+    "year": 2012,
+    "relevance": "waste-glass-related",
+    "theta": 0.559
+   },
+   {
+    "title": "Soda Ash Free Batches for Novel Container Glass Compositions",
+    "year": 2026,
+    "relevance": "waste-glass-related",
+    "theta": 0.555
+   }
+  ],
+  "14": [
+   {
+    "title": "Understanding viscous-flow sintering and nepheline formation in Cd-coloured glass bead waste clay systems usin",
+    "year": 2026,
+    "relevance": "waste-glass-related",
+    "theta": 0.73
+   },
+   {
+    "title": "Solubility of PuO 2 \u2022 xH 2 \u039f in Alkaline Hanford High-Level Waste Solution",
+    "year": 1987,
+    "relevance": "hanford-adjacent",
+    "theta": 0.548
+   },
+   {
+    "title": "Barium borosilicate glass \u2013 a potential matrix for immobilization of sulfate bearing high-level radioactive li",
+    "year": 2006,
+    "relevance": "waste-glass-related",
+    "theta": 0.524
+   },
+   {
+    "title": "Structure and crystallization behavior of phosphorus-containing nepheline (NaAlSiO4) based sodium aluminosilic",
+    "year": 2021,
+    "relevance": "waste-glass-related",
+    "theta": 0.485
+   },
+   {
+    "title": "Influence of TiO2, ZnO, and Fe2O3 on the interfacial oxide layer evolution and corrosion resistance of alloy 6",
+    "year": 2026,
+    "relevance": "waste-glass-related",
+    "theta": 0.478
+   }
+  ],
+  "15": [
+   {
+    "title": "Comparison of glass and ceramic leaching behavior by natural analogs",
+    "year": 1981,
+    "relevance": "waste-glass-related",
+    "theta": 0.736
+   },
+   {
+    "title": "Using quartzofeldspathic waste to obtain foamed glass material",
+    "year": 2016,
+    "relevance": "waste-glass-related",
+    "theta": 0.469
+   },
+   {
+    "title": "Polymorphic Transitions in Cerium-Substituted Zirconolite (CaZrTi 2 O 7 )",
+    "year": 2017,
+    "relevance": "waste-glass-related",
+    "theta": 0.379
+   },
+   {
+    "title": "Reformulating Ceramic Body Composition to Improve Energy Efficiency in Brick Manufacture",
+    "year": 2021,
+    "relevance": "waste-glass-related",
+    "theta": 0.373
+   },
+   {
+    "title": "Alteration of 29Si-doped SON68 borosilicate nuclear waste glass in the presence of near field materials",
+    "year": 2019,
+    "relevance": "waste-glass-related",
+    "theta": 0.361
+   }
+  ],
+  "16": [
+   {
+    "title": "Sodium sulfate waste for making slag-sitall tiles",
+    "year": 1981,
+    "relevance": "waste-glass-related",
+    "theta": 0.52
+   },
+   {
+    "title": "Self-Leveling Inks for Printing Ultra-uniform Perovskite Solar Modules by Flexography",
+    "year": 2026,
+    "relevance": "waste-glass-related",
+    "theta": 0.492
+   },
+   {
+    "title": "DuraMAT FY 2023 Annual Report: Toward Reliability Forecasting",
+    "year": 2024,
+    "relevance": "waste-glass-related",
+    "theta": 0.413
+   },
+   {
+    "title": "CORE-CM in The Greater Green River and Wind River Basins: Transforming and Advancing a National Coal Asset (Fi",
+    "year": 2024,
+    "relevance": "waste-glass-related",
+    "theta": 0.399
+   },
+   {
+    "title": "Technology Development and Integration for Volume Production of High Purity Rare Earth Metals from Phosphate P",
+    "year": 2024,
+    "relevance": "waste-glass-related",
+    "theta": 0.389
+   }
+  ],
+  "17": [
+   {
+    "title": "Laboratory Testing of Waste Glass Aqueous Corrosion; Effects of Experimental Parameters",
+    "year": 1993,
+    "relevance": "waste-glass-related",
+    "theta": 0.621
+   },
+   {
+    "title": "Vitrification of borate waste from nuclear power plant using coal fly ash. (II) Leaching behavior of the FA30 ",
+    "year": 2002,
+    "relevance": "waste-glass-related",
+    "theta": 0.593
+   },
+   {
+    "title": "Applicability of vitrification method for waste generated from treatment of contaminated water (7) - fundament",
+    "year": 2014,
+    "relevance": "waste-glass-related",
+    "theta": 0.573
+   },
+   {
+    "title": "Glass Corrosion Testing and Modeling of Inconel \u00ae 690",
+    "year": 2025,
+    "relevance": "waste-glass-related",
+    "theta": 0.569
+   },
+   {
+    "title": "Applicability of vitrification method for waste generated from treatment of contaminated water (8) - thevrmody",
+    "year": 2014,
+    "relevance": "waste-glass-related",
+    "theta": 0.565
+   }
+  ],
+  "18": [
+   {
+    "title": "Assessment of a Filtration Waste Qualification Method for LAWPS",
+    "year": 2017,
+    "relevance": "hanford-adjacent",
+    "theta": 0.598
+   },
+   {
+    "title": "Water-based 2-dimensional anatase TiO 2 inks for printed diodes and transistors",
+    "year": 2023,
+    "relevance": "waste-glass-related",
+    "theta": 0.578
+   },
+   {
+    "title": "Discontinuous shear modulus determines the glass transition temperature",
+    "year": 2015,
+    "relevance": "waste-glass-related",
+    "theta": 0.561
+   },
+   {
+    "title": "Iodine Capture with Copper-Electroplated Nickel Foams",
+    "year": 2026,
+    "relevance": "waste-glass-related",
+    "theta": 0.558
+   },
+   {
+    "title": "Automated SEM analysis of particles in Hanford tank waste",
+    "year": 2024,
+    "relevance": "hanford-adjacent",
+    "theta": 0.491
+   }
+  ],
+  "19": [
+   {
+    "title": "High-temperature melter tests for vitrificationof bnfl high-level nuclear wastes",
+    "year": 1999,
+    "relevance": "waste-glass-related",
+    "theta": 0.826
+   },
+   {
+    "title": "Spent Lithium Iron Phosphate-Mediated Flash Joule Heating for Inducing Amorphization Transformation of Fly Ash",
+    "year": 2026,
+    "relevance": "waste-glass-related",
+    "theta": 0.525
+   },
+   {
+    "title": "Sodium\u2013aluminum\u2013iron phosphate glasses as legacy high level waste forms",
+    "year": 2016,
+    "relevance": "waste-glass-related",
+    "theta": 0.512
+   },
+   {
+    "title": "Refractory Corrosion in Processing of Mixed Waste Glass Melt Using a DC Plasma Arc Melter",
+    "year": 1999,
+    "relevance": "waste-glass-related",
+    "theta": 0.457
+   },
+   {
+    "title": "Corrosion Testing of Bubbler Materials for LAW Vitrification (Rev. 0)",
+    "year": 2024,
+    "relevance": "waste-glass-related",
+    "theta": 0.444
+   }
+  ],
+  "20": [
+   {
+    "title": "Characterization of Melter Off Gas Condensate from the Duratek LAW Pilot Melter Off Gas System",
+    "year": 2000,
+    "relevance": "waste-glass-related",
+    "theta": 0.711
+   },
+   {
+    "title": "Spectroscopic identification of rare earth elements in phosphate glass",
+    "year": 2017,
+    "relevance": "waste-glass-related",
+    "theta": 0.694
+   },
+   {
+    "title": "XAFS analysis of ruthenium in simulated iron phosphate radioactive waste glass",
+    "year": 2020,
+    "relevance": "waste-glass-related",
+    "theta": 0.511
+   },
+   {
+    "title": "Higher Fe{sup 2+}/total Fe ratio in iron doped phosphate glass melted by microwave heating",
+    "year": 2015,
+    "relevance": "waste-glass-related",
+    "theta": 0.509
+   },
+   {
+    "title": "AP-105 Melter Offgas Condensate and EMF Evaporator Concentrate Raman and LIBS Qualitative Evaluation for the u",
+    "year": 2019,
+    "relevance": "core",
+    "theta": 0.492
+   }
+  ],
+  "21": [
+   {
+    "title": "Glassform-Version 1: A Spreadsheet or an Algorithm for Generating Preliminary Glass Formulations for Waste Str",
+    "year": 1999,
+    "relevance": "waste-glass-related",
+    "theta": 0.552
+   },
+   {
+    "title": "The Role of Cohesive Particle Interactions on Solids Uniformity and Mobilization During Jet Mixing: Testing Re",
+    "year": 2010,
+    "relevance": "hanford-adjacent",
+    "theta": 0.487
+   },
+   {
+    "title": "Resonant Acoustic Mixing of Dense Pastes: Role of Adhesion and Viscosity",
+    "year": 2026,
+    "relevance": "waste-glass-related",
+    "theta": 0.439
+   },
+   {
+    "title": "Experimental Plan for the Cold Demonstration (Scoping Tests) of Glass Removal Methods from a DWPF Melter",
+    "year": 2001,
+    "relevance": "waste-glass-related",
+    "theta": 0.431
+   },
+   {
+    "title": "Establishment of a Cost-Effective and Robust Planning Basis for the Processing of M-91 Waste at the Hanford Si",
+    "year": 2004,
+    "relevance": "hanford-adjacent",
+    "theta": 0.418
+   }
+  ],
+  "22": [
+   {
+    "title": "Cast Stone Technology for the Treatment and Immobilization of Low-Activity Waste",
+    "year": 2011,
+    "relevance": "hanford-adjacent",
+    "theta": 0.612
+   },
+   {
+    "title": "Hanford Waste Simulants Created to Support the Research and Development on the River Protection Project - Wast",
+    "year": 2001,
+    "relevance": "hanford-adjacent",
+    "theta": 0.533
+   },
+   {
+    "title": "Hanford facility dangerous waste permit application, 616 Nonradioactive Dangerous Waste Storage Facility. Revi",
+    "year": 1994,
+    "relevance": "hanford-adjacent",
+    "theta": 0.524
+   },
+   {
+    "title": "$sup 40$Ar/$sup 39$Ar AGE DETERMINATIONS ON NEPHELINE AND BASIC WHOLE ROCKS.",
+    "year": 1970,
+    "relevance": "waste-glass-related",
+    "theta": 0.509
+   },
+   {
+    "title": "DeSelenator: A Se-Removal Process for Environmental Decontamination of Wastewaters from Coal-Burning Power Pla",
+    "year": 2025,
+    "relevance": "waste-glass-related",
+    "theta": 0.494
+   }
+  ],
+  "23": [
+   {
+    "title": "A Summary of Fault Recurrence and Strain Rates in the Vicinity of the Hanford Site",
+    "year": 2012,
+    "relevance": "hanford-adjacent",
+    "theta": 0.647
+   },
+   {
+    "title": "Crystallization kinetics of borosilicate glasses for CHROMPIC nuclear waste vitrification",
+    "year": 2015,
+    "relevance": "waste-glass-related",
+    "theta": 0.624
+   },
+   {
+    "title": "SMALL BLOOD VESSELS AND THE ORIGIN OF PHAGOCYTES IN THE RAT CEREBRAL CORTEX FOLLOWING HEAVY PARTICLE IRRADIATI",
+    "year": 1965,
+    "relevance": "waste-glass-related",
+    "theta": 0.596
+   },
+   {
+    "title": "LFCM vitrification technology: Quarterly progress report, July-September 1987",
+    "year": 1988,
+    "relevance": "core",
+    "theta": 0.54
+   },
+   {
+    "title": "LFCM vitrification technology. Quarterly progress report, October-December 1985",
+    "year": 1986,
+    "relevance": "core",
+    "theta": 0.54
+   }
+  ],
+  "24": [
+   {
+    "title": "CONSTRUCTION OF A MEASUREMENT ARRANGEMENT FOR THE 4$pi$ COUNTING OF RADIOISOTOPES",
+    "year": 1958,
+    "relevance": "waste-glass-related",
+    "theta": 0.683
+   },
+   {
+    "title": "Temperature effect on structural evolution of aluminosilicate gels formed during borosilicate nuclear waste gl",
+    "year": 2025,
+    "relevance": "waste-glass-related",
+    "theta": 0.659
+   },
+   {
+    "title": "Slag-Refractory Interaction in Slagging Coal Gasifiers",
+    "year": 2008,
+    "relevance": "waste-glass-related",
+    "theta": 0.598
+   },
+   {
+    "title": "DETERMINING MIGRATION OF VAPOR CORROSION INHIBITORS USING CORROSION POTENTIAL DATA",
+    "year": 2021,
+    "relevance": "waste-glass-related",
+    "theta": 0.551
+   },
+   {
+    "title": "The role of waste glass powder in alkali-silica reaction mitigation: Transforming glasscrete durability throug",
+    "year": 2025,
+    "relevance": "waste-glass-related",
+    "theta": 0.538
+   }
+  ],
+  "25": [
+   {
+    "title": "Durability Properties of Glass Fiber Reinforced Concrete Made using Metakaolin and Waste Foundry Sand as Parti",
+    "year": 2017,
+    "relevance": "waste-glass-related",
+    "theta": 0.782
+   },
+   {
+    "title": "Sustainable use of waste glass sand and waste glass powder in alkali-activated slag foam concretes: Physico-me",
+    "year": 2024,
+    "relevance": "waste-glass-related",
+    "theta": 0.706
+   },
+   {
+    "title": "Hanford, Construction history, Volume 2 (August 1945)",
+    "year": 2021,
+    "relevance": "hanford-adjacent",
+    "theta": 0.683
+   },
+   {
+    "title": "Crystallization of Glass Fibers for Fireproof Insulation",
+    "year": 2017,
+    "relevance": "waste-glass-related",
+    "theta": 0.676
+   },
+   {
+    "title": "Mineral waste form development for US defense wastes. Progress report",
+    "year": 1981,
+    "relevance": "waste-glass-related",
+    "theta": 0.635
+   }
+  ],
+  "26": [
+   {
+    "title": "CYTOLOGICAL CHANGES IN ORAL LEUKOPLAKIA BEFORE AND AFTER DEEP X-RAY IRRADIATION",
+    "year": 1962,
+    "relevance": "waste-glass-related",
+    "theta": 0.569
+   },
+   {
+    "title": "Serum protein inhibition of thyrotropin binding to human thyroid tissue. [/sup 125/I tracer technique]",
+    "year": 1978,
+    "relevance": "waste-glass-related",
+    "theta": 0.532
+   },
+   {
+    "title": "Filtration of A Hanford AN-104 Sample",
+    "year": 2004,
+    "relevance": "hanford-adjacent",
+    "theta": 0.519
+   },
+   {
+    "title": "The effect of chocolate components and tempering on resistivity and viscosity",
+    "year": 2016,
+    "relevance": "waste-glass-related",
+    "theta": 0.517
+   },
+   {
+    "title": "Characterization of Tru Inventories in G and H Cells, 327 Building using a Neutron Instrument Pod",
+    "year": 2003,
+    "relevance": "hanford-adjacent",
+    "theta": 0.479
+   }
+  ],
+  "27": [
+   {
+    "title": "Silver cementation mechanism for leaching silicon solar cells in nitric acid",
+    "year": 2024,
+    "relevance": "waste-glass-related",
+    "theta": 0.636
+   },
+   {
+    "title": "Redox Effects and Inconel 690 Alloy Corrosion in High-Bi HLW Glass",
+    "year": 2016,
+    "relevance": "waste-glass-related",
+    "theta": 0.604
+   },
+   {
+    "title": "Continouos-flow leach tests of simulated high-level waste glass in synthetic basalt groundwater",
+    "year": 1989,
+    "relevance": "waste-glass-related",
+    "theta": 0.552
+   },
+   {
+    "title": "Durability of High-Level Waste Glass in Flowing Groundwater Under Gamma-Irradiation",
+    "year": 1994,
+    "relevance": "waste-glass-related",
+    "theta": 0.546
+   },
+   {
+    "title": "Radiochemical analysis of reactor effluent waste materials at Hanford",
+    "year": 1960,
+    "relevance": "hanford-adjacent",
+    "theta": 0.539
+   }
+  ],
+  "28": [
+   {
+    "title": "Iron phosphate glass waste forms for vitrifying Hanford AZ102 Low Activity Waste (LAW), part II: Property-comp",
+    "year": 2018,
+    "relevance": "core",
+    "theta": 0.684
+   },
+   {
+    "title": "The effect of molecular structure on borosilicate glass leaching",
+    "year": 1986,
+    "relevance": "waste-glass-related",
+    "theta": 0.622
+   },
+   {
+    "title": "EFFECT OF GRAPHITE NANOSTRUTURES ON THE VISCOSITY PROPERTIES OF BLENDS DIESEL-S10 AND BIODIESEL",
+    "year": 2021,
+    "relevance": "waste-glass-related",
+    "theta": 0.615
+   },
+   {
+    "title": "Immobilization of simulated radioactive fluoride waste in phosphate glass",
+    "year": 2016,
+    "relevance": "waste-glass-related",
+    "theta": 0.542
+   },
+   {
+    "title": "Iron phosphate glass waste forms for vitrifying Hanford AZ102 low activity waste (LAW), part I: Glass formatio",
+    "year": 2017,
+    "relevance": "core",
+    "theta": 0.526
+   }
+  ],
+  "29": [
+   {
+    "title": "Alkali Leaching Properties of Waste Glass-Based Geopolymers",
+    "year": 2018,
+    "relevance": "waste-glass-related",
+    "theta": 0.861
+   },
+   {
+    "title": "Determining chemical durability of nuclear waste glasses: The product consistency test (PCT). (ASTM standard)",
+    "year": 1995,
+    "relevance": "waste-glass-related",
+    "theta": 0.591
+   },
+   {
+    "title": "Formation of micro- and mesoporous substructures in the course of the leaching process of two-phase alkali bor",
+    "year": 2014,
+    "relevance": "waste-glass-related",
+    "theta": 0.506
+   },
+   {
+    "title": "Static and dynamic tests for the chemical durability of nuclear waste glass",
+    "year": 1981,
+    "relevance": "waste-glass-related",
+    "theta": 0.462
+   },
+   {
+    "title": "Structure\u2013reactivity relationships governing hydrothermal liquefaction of lignin from co-solvent enhanced lign",
+    "year": 2024,
+    "relevance": "waste-glass-related",
+    "theta": 0.411
+   }
+  ]
+ },
+ "topic_neighbors": {
+  "0": [
+   {
+    "topic": 15,
+    "label": "ceramic/cold-cap/rare",
+    "sim": 0.965
+   },
+   {
+    "topic": 16,
+    "label": "ineel/next/aluminum",
+    "sim": 0.964
+   },
+   {
+    "topic": 6,
+    "label": "polyethylene/polypropylene/dynamic",
+    "sim": 0.964
+   }
+  ],
+  "1": [
+   {
+    "topic": 8,
+    "label": "transport/alkaline/geochemical",
+    "sim": 0.963
+   },
+   {
+    "topic": 16,
+    "label": "ineel/next/aluminum",
+    "sim": 0.962
+   },
+   {
+    "topic": 15,
+    "label": "ceramic/cold-cap/rare",
+    "sim": 0.962
+   }
+  ],
+  "2": [
+   {
+    "topic": 10,
+    "label": "investigation/sludge/aluminosilicate",
+    "sim": 0.964
+   },
+   {
+    "topic": 19,
+    "label": "salts/melts/melt",
+    "sim": 0.963
+   },
+   {
+    "topic": 4,
+    "label": "analysis/plant/characterization",
+    "sim": 0.963
+   }
+  ],
+  "3": [
+   {
+    "topic": 7,
+    "label": "srnl/low-activity/simulant",
+    "sim": 0.963
+   },
+   {
+    "topic": 12,
+    "label": "learning/units/machine",
+    "sim": 0.963
+   },
+   {
+    "topic": 4,
+    "label": "analysis/plant/characterization",
+    "sim": 0.963
+   }
+  ],
+  "4": [
+   {
+    "topic": 17,
+    "label": "glass-ceramics/simulation/solid",
+    "sim": 0.966
+   },
+   {
+    "topic": 7,
+    "label": "srnl/low-activity/simulant",
+    "sim": 0.964
+   },
+   {
+    "topic": 2,
+    "label": "iron/sludges/plant",
+    "sim": 0.963
+   }
+  ],
+  "5": [
+   {
+    "topic": 8,
+    "label": "transport/alkaline/geochemical",
+    "sim": 0.961
+   },
+   {
+    "topic": 12,
+    "label": "learning/units/machine",
+    "sim": 0.961
+   },
+   {
+    "topic": 1,
+    "label": "plutonium/fixation/release",
+    "sim": 0.961
+   }
+  ],
+  "6": [
+   {
+    "topic": 29,
+    "label": "crystal/leaching/viscosity",
+    "sim": 0.964
+   },
+   {
+    "topic": 0,
+    "label": "doping/mortars/conductivity",
+    "sim": 0.964
+   },
+   {
+    "topic": 24,
+    "label": "corrosion/stainless/coupons",
+    "sim": 0.963
+   }
+  ],
+  "7": [
+   {
+    "topic": 17,
+    "label": "glass-ceramics/simulation/solid",
+    "sim": 0.965
+   },
+   {
+    "topic": 23,
+    "label": "washington/dissolution/pacific",
+    "sim": 0.964
+   },
+   {
+    "topic": 19,
+    "label": "salts/melts/melt",
+    "sim": 0.964
+   }
+  ],
+  "8": [
+   {
+    "topic": 24,
+    "label": "corrosion/stainless/coupons",
+    "sim": 0.963
+   },
+   {
+    "topic": 1,
+    "label": "plutonium/fixation/release",
+    "sim": 0.963
+   },
+   {
+    "topic": 6,
+    "label": "polyethylene/polypropylene/dynamic",
+    "sim": 0.962
+   }
+  ],
+  "9": [
+   {
+    "topic": 14,
+    "label": "systems/retention/solutions",
+    "sim": 0.966
+   },
+   {
+    "topic": 10,
+    "label": "investigation/sludge/aluminosilicate",
+    "sim": 0.966
+   },
+   {
+    "topic": 27,
+    "label": "acid/nitric/leaching",
+    "sim": 0.963
+   }
+  ],
+  "10": [
+   {
+    "topic": 9,
+    "label": "evolution/iron/effect",
+    "sim": 0.966
+   },
+   {
+    "topic": 14,
+    "label": "systems/retention/solutions",
+    "sim": 0.965
+   },
+   {
+    "topic": 29,
+    "label": "crystal/leaching/viscosity",
+    "sim": 0.964
+   }
+  ],
+  "11": [
+   {
+    "topic": 7,
+    "label": "srnl/low-activity/simulant",
+    "sim": 0.96
+   },
+   {
+    "topic": 27,
+    "label": "acid/nitric/leaching",
+    "sim": 0.959
+   },
+   {
+    "topic": 2,
+    "label": "iron/sludges/plant",
+    "sim": 0.959
+   }
+  ],
+  "12": [
+   {
+    "topic": 3,
+    "label": "safety/assessment/hwvp",
+    "sim": 0.963
+   },
+   {
+    "topic": 25,
+    "label": "cementitious/workability/sand",
+    "sim": 0.961
+   },
+   {
+    "topic": 5,
+    "label": "groundwater/site/monitoring",
+    "sim": 0.961
+   }
+  ],
+  "13": [
+   {
+    "topic": 28,
+    "label": "borosilicate/structure/form",
+    "sim": 0.961
+   },
+   {
+    "topic": 26,
+    "label": "volumetric/cells/height",
+    "sim": 0.961
+   },
+   {
+    "topic": 19,
+    "label": "salts/melts/melt",
+    "sim": 0.96
+   }
+  ],
+  "14": [
+   {
+    "topic": 9,
+    "label": "evolution/iron/effect",
+    "sim": 0.966
+   },
+   {
+    "topic": 27,
+    "label": "acid/nitric/leaching",
+    "sim": 0.965
+   },
+   {
+    "topic": 10,
+    "label": "investigation/sludge/aluminosilicate",
+    "sim": 0.965
+   }
+  ],
+  "15": [
+   {
+    "topic": 0,
+    "label": "doping/mortars/conductivity",
+    "sim": 0.965
+   },
+   {
+    "topic": 1,
+    "label": "plutonium/fixation/release",
+    "sim": 0.962
+   },
+   {
+    "topic": 10,
+    "label": "investigation/sludge/aluminosilicate",
+    "sim": 0.962
+   }
+  ],
+  "16": [
+   {
+    "topic": 0,
+    "label": "doping/mortars/conductivity",
+    "sim": 0.964
+   },
+   {
+    "topic": 1,
+    "label": "plutonium/fixation/release",
+    "sim": 0.962
+   },
+   {
+    "topic": 22,
+    "label": "innovation/extraction/routes",
+    "sim": 0.962
+   }
+  ],
+  "17": [
+   {
+    "topic": 4,
+    "label": "analysis/plant/characterization",
+    "sim": 0.966
+   },
+   {
+    "topic": 7,
+    "label": "srnl/low-activity/simulant",
+    "sim": 0.965
+   },
+   {
+    "topic": 19,
+    "label": "salts/melts/melt",
+    "sim": 0.963
+   }
+  ],
+  "18": [
+   {
+    "topic": 26,
+    "label": "volumetric/cells/height",
+    "sim": 0.964
+   },
+   {
+    "topic": 22,
+    "label": "innovation/extraction/routes",
+    "sim": 0.962
+   },
+   {
+    "topic": 4,
+    "label": "analysis/plant/characterization",
+    "sim": 0.961
+   }
+  ],
+  "19": [
+   {
+    "topic": 7,
+    "label": "srnl/low-activity/simulant",
+    "sim": 0.964
+   },
+   {
+    "topic": 28,
+    "label": "borosilicate/structure/form",
+    "sim": 0.964
+   },
+   {
+    "topic": 14,
+    "label": "systems/retention/solutions",
+    "sim": 0.964
+   }
+  ],
+  "20": [
+   {
+    "topic": 16,
+    "label": "ineel/next/aluminum",
+    "sim": 0.961
+   },
+   {
+    "topic": 18,
+    "label": "salt/flux/shear",
+    "sim": 0.961
+   },
+   {
+    "topic": 26,
+    "label": "volumetric/cells/height",
+    "sim": 0.96
+   }
+  ],
+  "21": [
+   {
+    "topic": 23,
+    "label": "washington/dissolution/pacific",
+    "sim": 0.962
+   },
+   {
+    "topic": 22,
+    "label": "innovation/extraction/routes",
+    "sim": 0.961
+   },
+   {
+    "topic": 18,
+    "label": "salt/flux/shear",
+    "sim": 0.961
+   }
+  ],
+  "22": [
+   {
+    "topic": 18,
+    "label": "salt/flux/shear",
+    "sim": 0.962
+   },
+   {
+    "topic": 16,
+    "label": "ineel/next/aluminum",
+    "sim": 0.962
+   },
+   {
+    "topic": 21,
+    "label": "solids/iodine/noble",
+    "sim": 0.961
+   }
+  ],
+  "23": [
+   {
+    "topic": 7,
+    "label": "srnl/low-activity/simulant",
+    "sim": 0.964
+   },
+   {
+    "topic": 21,
+    "label": "solids/iodine/noble",
+    "sim": 0.962
+   },
+   {
+    "topic": 3,
+    "label": "safety/assessment/hwvp",
+    "sim": 0.962
+   }
+  ],
+  "24": [
+   {
+    "topic": 26,
+    "label": "volumetric/cells/height",
+    "sim": 0.964
+   },
+   {
+    "topic": 6,
+    "label": "polyethylene/polypropylene/dynamic",
+    "sim": 0.963
+   },
+   {
+    "topic": 8,
+    "label": "transport/alkaline/geochemical",
+    "sim": 0.963
+   }
+  ],
+  "25": [
+   {
+    "topic": 4,
+    "label": "analysis/plant/characterization",
+    "sim": 0.961
+   },
+   {
+    "topic": 12,
+    "label": "learning/units/machine",
+    "sim": 0.961
+   },
+   {
+    "topic": 0,
+    "label": "doping/mortars/conductivity",
+    "sim": 0.96
+   }
+  ],
+  "26": [
+   {
+    "topic": 18,
+    "label": "salt/flux/shear",
+    "sim": 0.964
+   },
+   {
+    "topic": 24,
+    "label": "corrosion/stainless/coupons",
+    "sim": 0.964
+   },
+   {
+    "topic": 27,
+    "label": "acid/nitric/leaching",
+    "sim": 0.962
+   }
+  ],
+  "27": [
+   {
+    "topic": 14,
+    "label": "systems/retention/solutions",
+    "sim": 0.965
+   },
+   {
+    "topic": 7,
+    "label": "srnl/low-activity/simulant",
+    "sim": 0.963
+   },
+   {
+    "topic": 9,
+    "label": "evolution/iron/effect",
+    "sim": 0.963
+   }
+  ],
+  "28": [
+   {
+    "topic": 19,
+    "label": "salts/melts/melt",
+    "sim": 0.964
+   },
+   {
+    "topic": 29,
+    "label": "crystal/leaching/viscosity",
+    "sim": 0.962
+   },
+   {
+    "topic": 7,
+    "label": "srnl/low-activity/simulant",
+    "sim": 0.962
+   }
+  ],
+  "29": [
+   {
+    "topic": 10,
+    "label": "investigation/sludge/aluminosilicate",
+    "sim": 0.964
+   },
+   {
+    "topic": 6,
+    "label": "polyethylene/polypropylene/dynamic",
+    "sim": 0.964
+   },
+   {
+    "topic": 14,
+    "label": "systems/retention/solutions",
+    "sim": 0.963
+   }
+  ]
+ }
+}
